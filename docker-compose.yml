@@ -1,0 +1,39 @@
+services:
+  redis:
+    # Serviço Redis (ainda necessário para Celery)
+    image: redis:6-alpine
+    ports:
+      - "6379:6379"
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    command: sh -c "./run.sh"
+    volumes:
+      - ./backend:/app
+      - sqlite_data:/app/ # Adicione esta linha
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./backend/database/.env
+    depends_on:
+      - redis
+    working_dir: /app
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    volumes:
+      - ./frontend:/app
+    ports:
+      - "3000:80"
+    env_file:
+      - ./frontend/.env.production # Para produção
+    depends_on:
+      - backend
+    working_dir: /app
+
+volumes:
+  sqlite_data:

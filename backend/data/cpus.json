@@ -1,0 +1,6282 @@
+[
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 7 9800X3D",
+        "socket": "AM5",
+        "n_cores": 8,
+        "base_clock_speed": 4.7,
+        "boost_clock_speed": 5.2,
+        "consumption": 120,
+        "integrated_gpu": "Radeon"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 7600X",
+        "socket": "AM5",
+        "n_cores": 6,
+        "base_clock_speed": 4.7,
+        "boost_clock_speed": 5.3,
+        "consumption": 105,
+        "integrated_gpu": "Radeon"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 7 7800X3D",
+        "socket": "AM5",
+        "n_cores": 8,
+        "base_clock_speed": 4.2,
+        "boost_clock_speed": 5.0,
+        "consumption": 120,
+        "integrated_gpu": "Radeon"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 5600X",
+        "socket": "AM4",
+        "n_cores": 6,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 4.6,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 7 9700X",
+        "socket": "AM5",
+        "n_cores": 8,
+        "base_clock_speed": 3.8,
+        "boost_clock_speed": 5.5,
+        "consumption": 65,
+        "integrated_gpu": "Radeon"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 9 9950X3D",
+        "socket": "AM5",
+        "n_cores": 16,
+        "base_clock_speed": 4.3,
+        "boost_clock_speed": 5.7,
+        "consumption": 170,
+        "integrated_gpu": "Radeon"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 9600X",
+        "socket": "AM5",
+        "n_cores": 6,
+        "base_clock_speed": 3.9,
+        "boost_clock_speed": 5.4,
+        "consumption": 65,
+        "integrated_gpu": "Radeon"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 7 7700X",
+        "socket": "AM5",
+        "n_cores": 8,
+        "base_clock_speed": 4.5,
+        "boost_clock_speed": 5.4,
+        "consumption": 105,
+        "integrated_gpu": "Radeon"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 5500",
+        "socket": "AM4",
+        "n_cores": 6,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 4.2,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 7600",
+        "socket": "AM5",
+        "n_cores": 6,
+        "base_clock_speed": 3.8,
+        "boost_clock_speed": 5.1,
+        "consumption": 65,
+        "integrated_gpu": "Radeon"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 5600",
+        "socket": "AM4",
+        "n_cores": 6,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 4.4,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 7 5800X",
+        "socket": "AM4",
+        "n_cores": 8,
+        "base_clock_speed": 3.8,
+        "boost_clock_speed": 4.7,
+        "consumption": 105,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-12400F",
+        "socket": "LGA1700",
+        "n_cores": 6,
+        "base_clock_speed": 2.5,
+        "boost_clock_speed": 4.4,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-14900K",
+        "socket": "LGA1700",
+        "n_cores": 24,
+        "base_clock_speed": 3.2,
+        "boost_clock_speed": 6.0,
+        "consumption": 125,
+        "integrated_gpu": "Intel UHD Graphics 770"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-14700K",
+        "socket": "LGA1700",
+        "n_cores": 20,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 5.6,
+        "consumption": 125,
+        "integrated_gpu": "Intel UHD Graphics 770"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 3600",
+        "socket": "AM4",
+        "n_cores": 6,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 4.2,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 7 5700X",
+        "socket": "AM4",
+        "n_cores": 8,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 4.6,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 9 7900X",
+        "socket": "AM5",
+        "n_cores": 12,
+        "base_clock_speed": 4.7,
+        "boost_clock_speed": 5.6,
+        "consumption": 170,
+        "integrated_gpu": "Radeon"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 9 9900X",
+        "socket": "AM5",
+        "n_cores": 12,
+        "base_clock_speed": 4.4,
+        "boost_clock_speed": 5.6,
+        "consumption": 120,
+        "integrated_gpu": "Radeon"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 7 7700",
+        "socket": "AM5",
+        "n_cores": 8,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 5.3,
+        "consumption": 65,
+        "integrated_gpu": "Radeon"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 7 5700X3D",
+        "socket": "AM4",
+        "n_cores": 8,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 4.1,
+        "consumption": 105,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 7500F",
+        "socket": "AM5",
+        "n_cores": 6,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 5.0,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-12700K",
+        "socket": "LGA1700",
+        "n_cores": 12,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 5.0,
+        "consumption": 125,
+        "integrated_gpu": "Intel UHD Graphics 770"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 9 9950X",
+        "socket": "AM5",
+        "n_cores": 16,
+        "base_clock_speed": 4.3,
+        "boost_clock_speed": 5.7,
+        "consumption": 170,
+        "integrated_gpu": "Radeon"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-12700KF",
+        "socket": "LGA1700",
+        "n_cores": 12,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 5.0,
+        "consumption": 125,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 8500G",
+        "socket": "AM5",
+        "n_cores": 6,
+        "base_clock_speed": 4.1,
+        "boost_clock_speed": 5.0,
+        "consumption": 65,
+        "integrated_gpu": "Radeon 740M"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-14400F",
+        "socket": "LGA1700",
+        "n_cores": 10,
+        "base_clock_speed": 2.5,
+        "boost_clock_speed": 4.7,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-14600K",
+        "socket": "LGA1700",
+        "n_cores": 14,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 5.3,
+        "consumption": 125,
+        "integrated_gpu": "Intel UHD Graphics 770"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 9 5900X",
+        "socket": "AM4",
+        "n_cores": 12,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 4.8,
+        "consumption": 105,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core Ultra 9 285K",
+        "socket": "LGA1851",
+        "n_cores": 24,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 5.7,
+        "consumption": 125,
+        "integrated_gpu": "Intel Xe"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 4500",
+        "socket": "AM4",
+        "n_cores": 6,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 4.1,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-12600KF",
+        "socket": "LGA1700",
+        "n_cores": 10,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 4.9,
+        "consumption": 125,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 7 3700X",
+        "socket": "AM4",
+        "n_cores": 8,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 4.4,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core Ultra 7 265K",
+        "socket": "LGA1851",
+        "n_cores": 20,
+        "base_clock_speed": 3.9,
+        "boost_clock_speed": 5.5,
+        "consumption": 125,
+        "integrated_gpu": "Intel Xe"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Threadripper 3990X",
+        "socket": "sTRX4",
+        "n_cores": 64,
+        "base_clock_speed": 2.9,
+        "boost_clock_speed": 4.3,
+        "consumption": 280,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 5600G",
+        "socket": "AM4",
+        "n_cores": 6,
+        "base_clock_speed": 3.9,
+        "boost_clock_speed": 4.4,
+        "consumption": 65,
+        "integrated_gpu": "Radeon Vega 7"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 7500F",
+        "socket": "AM5",
+        "n_cores": 6,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 5.0,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 7 5700",
+        "socket": "AM4",
+        "n_cores": 8,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 4.6,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-14700KF",
+        "socket": "LGA1700",
+        "n_cores": 20,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 5.6,
+        "consumption": 125,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-13400F",
+        "socket": "LGA1700",
+        "n_cores": 10,
+        "base_clock_speed": 2.5,
+        "boost_clock_speed": 4.6,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 8400F",
+        "socket": "AM5",
+        "n_cores": 6,
+        "base_clock_speed": 4.2,
+        "boost_clock_speed": 4.7,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-14600KF",
+        "socket": "LGA1700",
+        "n_cores": 14,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 5.3,
+        "consumption": 125,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 9 7950X",
+        "socket": "AM5",
+        "n_cores": 16,
+        "base_clock_speed": 4.5,
+        "boost_clock_speed": 5.7,
+        "consumption": 170,
+        "integrated_gpu": "Radeon"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-12600K",
+        "socket": "LGA1700",
+        "n_cores": 10,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 4.9,
+        "consumption": 125,
+        "integrated_gpu": "Intel UHD Graphics 770"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 7 5800X3D",
+        "socket": "AM4",
+        "n_cores": 8,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 4.5,
+        "consumption": 105,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-12100F",
+        "socket": "LGA1700",
+        "n_cores": 4,
+        "base_clock_speed": 3.3,
+        "boost_clock_speed": 4.3,
+        "consumption": 58,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 8600G",
+        "socket": "AM5",
+        "n_cores": 6,
+        "base_clock_speed": 4.3,
+        "boost_clock_speed": 5.0,
+        "consumption": 65,
+        "integrated_gpu": "Radeon 760M"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 9 9900X3D",
+        "socket": "AM5",
+        "n_cores": 12,
+        "base_clock_speed": 4.4,
+        "boost_clock_speed": 5.5,
+        "consumption": 120,
+        "integrated_gpu": "Radeon"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 7 5700G",
+        "socket": "AM4",
+        "n_cores": 8,
+        "base_clock_speed": 3.8,
+        "boost_clock_speed": 4.6,
+        "consumption": 65,
+        "integrated_gpu": "Radeon Vega 8"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 7 5800XT",
+        "socket": "AM4",
+        "n_cores": 8,
+        "base_clock_speed": 3.8,
+        "boost_clock_speed": 4.8,
+        "consumption": 105,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-12900K",
+        "socket": "LGA1700",
+        "n_cores": 16,
+        "base_clock_speed": 3.2,
+        "boost_clock_speed": 5.2,
+        "consumption": 125,
+        "integrated_gpu": "Intel UHD Graphics 770"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 9 5950X",
+        "socket": "AM4",
+        "n_cores": 16,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 4.9,
+        "consumption": 105,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 9 7950X3D",
+        "socket": "AM5",
+        "n_cores": 16,
+        "base_clock_speed": 4.2,
+        "boost_clock_speed": 5.7,
+        "consumption": 120,
+        "integrated_gpu": "Radeon"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-14900KF",
+        "socket": "LGA1700",
+        "n_cores": 24,
+        "base_clock_speed": 3.2,
+        "boost_clock_speed": 6.0,
+        "consumption": 125,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-13700K",
+        "socket": "LGA1700",
+        "n_cores": 16,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 5.4,
+        "consumption": 125,
+        "integrated_gpu": "Intel UHD Graphics 770"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-13600KF",
+        "socket": "LGA1700",
+        "n_cores": 14,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 5.1,
+        "consumption": 125,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 7 8700G",
+        "socket": "AM5",
+        "n_cores": 8,
+        "base_clock_speed": 4.2,
+        "boost_clock_speed": 5.1,
+        "consumption": 65,
+        "integrated_gpu": "Radeon 780M"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 5600GT",
+        "socket": "AM4",
+        "n_cores": 6,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 4.6,
+        "consumption": 65,
+        "integrated_gpu": "Radeon Vega 7"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-14900KS",
+        "socket": "LGA1700",
+        "n_cores": 24,
+        "base_clock_speed": 3.2,
+        "boost_clock_speed": 6.2,
+        "consumption": 150,
+        "integrated_gpu": "Intel UHD Graphics 770"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-14700F",
+        "socket": "LGA1700",
+        "n_cores": 20,
+        "base_clock_speed": 2.1,
+        "boost_clock_speed": 5.4,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-13900K",
+        "socket": "LGA1700",
+        "n_cores": 24,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 5.8,
+        "consumption": 125,
+        "integrated_gpu": "Intel UHD Graphics 770"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 2600",
+        "socket": "AM4",
+        "n_cores": 6,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 3.9,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 7 8700F",
+        "socket": "AM5",
+        "n_cores": 8,
+        "base_clock_speed": 4.1,
+        "boost_clock_speed": 5.0,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 3 3200G",
+        "socket": "AM4",
+        "n_cores": 4,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 4.0,
+        "consumption": 65,
+        "integrated_gpu": "Radeon Vega 8"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 7600X3D",
+        "socket": "AM5",
+        "n_cores": 6,
+        "base_clock_speed": 4.1,
+        "boost_clock_speed": 4.7,
+        "consumption": 65,
+        "integrated_gpu": "Radeon"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 9 7900",
+        "socket": "AM5",
+        "n_cores": 12,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 5.4,
+        "consumption": 65,
+        "integrated_gpu": "Radeon"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-9700K",
+        "socket": "LGA1151",
+        "n_cores": 8,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 4.9,
+        "consumption": 95,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-10400F",
+        "socket": "LGA1200",
+        "n_cores": 6,
+        "base_clock_speed": 2.9,
+        "boost_clock_speed": 4.3,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-13600K",
+        "socket": "LGA1700",
+        "n_cores": 14,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 5.1,
+        "consumption": 125,
+        "integrated_gpu": "Intel UHD Graphics 770"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-8700K",
+        "socket": "LGA1151",
+        "n_cores": 6,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 4.7,
+        "consumption": 95,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-12900KF",
+        "socket": "LGA1700",
+        "n_cores": 16,
+        "base_clock_speed": 3.2,
+        "boost_clock_speed": 5.2,
+        "consumption": 125,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-12400",
+        "socket": "LGA1700",
+        "n_cores": 6,
+        "base_clock_speed": 2.5,
+        "boost_clock_speed": 4.4,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 730"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 3600X",
+        "socket": "AM4",
+        "n_cores": 6,
+        "base_clock_speed": 3.8,
+        "boost_clock_speed": 4.4,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Pentium E2220",
+        "socket": "LGA775",
+        "n_cores": 2,
+        "base_clock_speed": 2.4,
+        "boost_clock_speed": 0.0,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-9900K",
+        "socket": "LGA1151",
+        "n_cores": 8,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 5.0,
+        "consumption": 95,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 7 2700X",
+        "socket": "AM4",
+        "n_cores": 8,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 4.3,
+        "consumption": 105,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-14100F",
+        "socket": "LGA1700",
+        "n_cores": 4,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 4.7,
+        "consumption": 58,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 9 3900X",
+        "socket": "AM4",
+        "n_cores": 12,
+        "base_clock_speed": 3.8,
+        "boost_clock_speed": 4.6,
+        "consumption": 105,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 3400G",
+        "socket": "AM4",
+        "n_cores": 4,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 4.2,
+        "consumption": 65,
+        "integrated_gpu": "Radeon Vega 11"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core Ultra 5 245K",
+        "socket": "LGA1851",
+        "n_cores": 14,
+        "base_clock_speed": 4.2,
+        "boost_clock_speed": 5.2,
+        "consumption": 125,
+        "integrated_gpu": "Intel Xe"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-7700K",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 4.2,
+        "boost_clock_speed": 4.5,
+        "consumption": 91,
+        "integrated_gpu": "Intel HD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-13700KF",
+        "socket": "LGA1700",
+        "n_cores": 16,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 5.4,
+        "consumption": 125,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-13400",
+        "socket": "LGA1700",
+        "n_cores": 10,
+        "base_clock_speed": 2.5,
+        "boost_clock_speed": 4.6,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 730"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-10700K",
+        "socket": "LGA1200",
+        "n_cores": 8,
+        "base_clock_speed": 3.8,
+        "boost_clock_speed": 5.1,
+        "consumption": 125,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-6700K",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 4.0,
+        "boost_clock_speed": 4.2,
+        "consumption": 91,
+        "integrated_gpu": "Intel HD Graphics 530"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-13100F",
+        "socket": "LGA1700",
+        "n_cores": 4,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 4.5,
+        "consumption": 58,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 9 7900X3D",
+        "socket": "AM5",
+        "n_cores": 12,
+        "base_clock_speed": 4.4,
+        "boost_clock_speed": 5.6,
+        "consumption": 120,
+        "integrated_gpu": "Radeon"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 7 3800X",
+        "socket": "AM4",
+        "n_cores": 8,
+        "base_clock_speed": 3.9,
+        "boost_clock_speed": 4.5,
+        "consumption": 105,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-9400F",
+        "socket": "LGA1151",
+        "n_cores": 6,
+        "base_clock_speed": 2.9,
+        "boost_clock_speed": 4.1,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core Ultra 7 265KF",
+        "socket": "LGA1851",
+        "n_cores": 20,
+        "base_clock_speed": 3.9,
+        "boost_clock_speed": 5.5,
+        "consumption": 125,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-14400",
+        "socket": "LGA1700",
+        "n_cores": 10,
+        "base_clock_speed": 2.5,
+        "boost_clock_speed": 4.7,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 730"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 3 4100",
+        "socket": "AM4",
+        "n_cores": 4,
+        "base_clock_speed": 3.8,
+        "boost_clock_speed": 4.0,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-13900KF",
+        "socket": "LGA1700",
+        "n_cores": 24,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 5.8,
+        "consumption": 125,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 9 5900XT",
+        "socket": "AM4",
+        "n_cores": 16,
+        "base_clock_speed": 3.3,
+        "boost_clock_speed": 4.8,
+        "consumption": 105,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Threadripper 3970X",
+        "socket": "sTRX4",
+        "n_cores": 32,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 4.5,
+        "consumption": 280,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-12100",
+        "socket": "LGA1700",
+        "n_cores": 4,
+        "base_clock_speed": 3.3,
+        "boost_clock_speed": 4.3,
+        "consumption": 60,
+        "integrated_gpu": "Intel UHD Graphics 730"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-11400F",
+        "socket": "LGA1200",
+        "n_cores": 6,
+        "base_clock_speed": 2.6,
+        "boost_clock_speed": 4.4,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 2600X",
+        "socket": "AM4",
+        "n_cores": 6,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 4.2,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-11700K",
+        "socket": "LGA1200",
+        "n_cores": 8,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 5.0,
+        "consumption": 125,
+        "integrated_gpu": "Intel UHD Graphics 750"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-14100",
+        "socket": "LGA1700",
+        "n_cores": 4,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 4.7,
+        "consumption": 60,
+        "integrated_gpu": "Intel UHD Graphics 730"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-9600K",
+        "socket": "LGA1151",
+        "n_cores": 6,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 4.6,
+        "consumption": 95,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-8700",
+        "socket": "LGA1151",
+        "n_cores": 6,
+        "base_clock_speed": 3.2,
+        "boost_clock_speed": 4.6,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-12700F",
+        "socket": "LGA1700",
+        "n_cores": 12,
+        "base_clock_speed": 2.1,
+        "boost_clock_speed": 4.9,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-13700F",
+        "socket": "LGA1700",
+        "n_cores": 16,
+        "base_clock_speed": 2.1,
+        "boost_clock_speed": 5.2,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 5500GT",
+        "socket": "AM4",
+        "n_cores": 6,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 4.4,
+        "consumption": 65,
+        "integrated_gpu": "Radeon Vega 7"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 5600XT",
+        "socket": "AM4",
+        "n_cores": 6,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 4.7,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 4600G",
+        "socket": "AM4",
+        "n_cores": 6,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 4.2,
+        "consumption": 65,
+        "integrated_gpu": "Radeon Vega 7"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-10400",
+        "socket": "LGA1200",
+        "n_cores": 6,
+        "base_clock_speed": 2.9,
+        "boost_clock_speed": 4.3,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-10900K",
+        "socket": "LGA1200",
+        "n_cores": 10,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 5.3,
+        "consumption": 125,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-7700",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 4.2,
+        "consumption": 65,
+        "integrated_gpu": "Intel HD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-8400",
+        "socket": "LGA1151",
+        "n_cores": 6,
+        "base_clock_speed": 2.8,
+        "boost_clock_speed": 4.0,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-10100F",
+        "socket": "LGA1200",
+        "n_cores": 4,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 4.3,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 3500X",
+        "socket": "AM4",
+        "n_cores": 6,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 4.1,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-6500",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 3.2,
+        "boost_clock_speed": 3.6,
+        "consumption": 65,
+        "integrated_gpu": "Intel HD Graphics 530"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-4790K",
+        "socket": "LGA1150",
+        "n_cores": 4,
+        "base_clock_speed": 4.0,
+        "boost_clock_speed": 4.4,
+        "consumption": 88,
+        "integrated_gpu": "Intel HD Graphics 4600"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core Ultra 5 235",
+        "socket": "LGA1851",
+        "n_cores": 14,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 5.0,
+        "consumption": 65,
+        "integrated_gpu": "Intel Xe"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-10700F",
+        "socket": "LGA1200",
+        "n_cores": 8,
+        "base_clock_speed": 2.9,
+        "boost_clock_speed": 4.8,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 9 3950X",
+        "socket": "AM4",
+        "n_cores": 16,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 4.7,
+        "consumption": 105,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 3 3100",
+        "socket": "AM4",
+        "n_cores": 4,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 3.9,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-11900K",
+        "socket": "LGA1200",
+        "n_cores": 8,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 5.3,
+        "consumption": 125,
+        "integrated_gpu": "Intel UHD Graphics 750"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-6700",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 4.0,
+        "consumption": 65,
+        "integrated_gpu": "Intel HD Graphics 530"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 9600",
+        "socket": "AM5",
+        "n_cores": 6,
+        "base_clock_speed": 3.8,
+        "boost_clock_speed": 5.2,
+        "consumption": 65,
+        "integrated_gpu": "Radeon"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-13500",
+        "socket": "LGA1700",
+        "n_cores": 14,
+        "base_clock_speed": 2.5,
+        "boost_clock_speed": 4.8,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 770"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core Ultra 5 245KF",
+        "socket": "LGA1851",
+        "n_cores": 14,
+        "base_clock_speed": 4.2,
+        "boost_clock_speed": 5.2,
+        "consumption": 125,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core Ultra 5 225F",
+        "socket": "LGA1851",
+        "n_cores": 10,
+        "base_clock_speed": 3.3,
+        "boost_clock_speed": 4.9,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-10600K",
+        "socket": "LGA1200",
+        "n_cores": 6,
+        "base_clock_speed": 4.1,
+        "boost_clock_speed": 4.8,
+        "consumption": 125,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-10850K",
+        "socket": "LGA1200",
+        "n_cores": 10,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 5.2,
+        "consumption": 125,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-14500",
+        "socket": "LGA1700",
+        "n_cores": 14,
+        "base_clock_speed": 2.6,
+        "boost_clock_speed": 5.0,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 770"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-4690K",
+        "socket": "LGA1150",
+        "n_cores": 4,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 3.9,
+        "consumption": 88,
+        "integrated_gpu": "Intel HD Graphics 4600"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-12700",
+        "socket": "LGA1700",
+        "n_cores": 12,
+        "base_clock_speed": 2.1,
+        "boost_clock_speed": 4.9,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 770"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-14700",
+        "socket": "LGA1700",
+        "n_cores": 20,
+        "base_clock_speed": 2.1,
+        "boost_clock_speed": 5.4,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 770"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 1600 (12nm)",
+        "socket": "AM4",
+        "n_cores": 6,
+        "base_clock_speed": 3.2,
+        "boost_clock_speed": 3.6,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-11700F",
+        "socket": "LGA1200",
+        "n_cores": 8,
+        "base_clock_speed": 2.5,
+        "boost_clock_speed": 4.9,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-2699 V4",
+        "socket": "LGA2011-3",
+        "n_cores": 22,
+        "base_clock_speed": 2.2,
+        "boost_clock_speed": 3.6,
+        "consumption": 145,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-3770",
+        "socket": "LGA1155",
+        "n_cores": 4,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 0.0,
+        "consumption": 77,
+        "integrated_gpu": "Intel HD Graphics 4000"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-7500T",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 2.7,
+        "boost_clock_speed": 3.3,
+        "consumption": 35,
+        "integrated_gpu": "Intel HD Graphics 630"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Threadripper 3960X",
+        "socket": "sTRX4",
+        "n_cores": 24,
+        "base_clock_speed": 3.8,
+        "boost_clock_speed": 4.5,
+        "consumption": 280,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-6600K",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 3.9,
+        "consumption": 91,
+        "integrated_gpu": "Intel HD Graphics 530"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 3600",
+        "socket": "AM4",
+        "n_cores": 6,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 4.2,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-9700",
+        "socket": "LGA1151",
+        "n_cores": 8,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 4.7,
+        "consumption": 65,
+        "integrated_gpu": "Intel HD Graphics 630"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 1600 (14nm)",
+        "socket": "AM4",
+        "n_cores": 6,
+        "base_clock_speed": 3.2,
+        "boost_clock_speed": 3.6,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-12500",
+        "socket": "LGA1700",
+        "n_cores": 6,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 4.6,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 770"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 3500",
+        "socket": "AM4",
+        "n_cores": 6,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 4.1,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-8600K",
+        "socket": "LGA1151",
+        "n_cores": 6,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 4.3,
+        "consumption": 95,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-11400",
+        "socket": "LGA1200",
+        "n_cores": 6,
+        "base_clock_speed": 2.6,
+        "boost_clock_speed": 4.4,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 730"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 7 7800X3D",
+        "socket": "AM5",
+        "n_cores": 8,
+        "base_clock_speed": 4.2,
+        "boost_clock_speed": 5.0,
+        "consumption": 120,
+        "integrated_gpu": "Radeon"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-4770K",
+        "socket": "LGA1150",
+        "n_cores": 4,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 3.9,
+        "consumption": 84,
+        "integrated_gpu": "Intel HD Graphics 4600"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-9100F",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 4.2,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 7 2700",
+        "socket": "AM4",
+        "n_cores": 8,
+        "base_clock_speed": 3.2,
+        "boost_clock_speed": 4.1,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core Ultra 9 285",
+        "socket": "LGA1851",
+        "n_cores": 24,
+        "base_clock_speed": 2.5,
+        "boost_clock_speed": 5.6,
+        "consumption": 65,
+        "integrated_gpu": "Intel Xe"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-10700",
+        "socket": "LGA1200",
+        "n_cores": 8,
+        "base_clock_speed": 2.9,
+        "boost_clock_speed": 4.8,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-13900KS",
+        "socket": "LGA1700",
+        "n_cores": 24,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 6.0,
+        "consumption": 150,
+        "integrated_gpu": "Intel UHD Graphics 770"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core Ultra 5 225",
+        "socket": "LGA1851",
+        "n_cores": 10,
+        "base_clock_speed": 3.3,
+        "boost_clock_speed": 4.9,
+        "consumption": 65,
+        "integrated_gpu": "Intel Xe"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-9900KF",
+        "socket": "LGA1151",
+        "n_cores": 8,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 5.0,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-7400",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 3.5,
+        "consumption": 65,
+        "integrated_gpu": "Intel HD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-10600KF",
+        "socket": "LGA1200",
+        "n_cores": 6,
+        "base_clock_speed": 4.1,
+        "boost_clock_speed": 4.8,
+        "consumption": 125,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-12900KS",
+        "socket": "LGA1700",
+        "n_cores": 16,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 5.5,
+        "consumption": 150,
+        "integrated_gpu": "Intel UHD Graphics 770"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD EPYC 4564P",
+        "socket": "AM5",
+        "n_cores": 16,
+        "base_clock_speed": 4.5,
+        "boost_clock_speed": 5.7,
+        "consumption": 170,
+        "integrated_gpu": "Radeon"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-3470",
+        "socket": "LGA1155",
+        "n_cores": 4,
+        "base_clock_speed": 3.2,
+        "boost_clock_speed": 0.0,
+        "consumption": 77,
+        "integrated_gpu": "Intel HD Graphics 2500"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-4790",
+        "socket": "LGA1150",
+        "n_cores": 4,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 4.0,
+        "consumption": 84,
+        "integrated_gpu": "Intel HD Graphics 4600"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-7500",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 3.8,
+        "consumption": 65,
+        "integrated_gpu": "Intel HD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-4150",
+        "socket": "LGA1150",
+        "n_cores": 2,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 0.0,
+        "consumption": 54,
+        "integrated_gpu": "Intel HD Graphics 4400"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core Ultra 7 265",
+        "socket": "LGA1851",
+        "n_cores": 20,
+        "base_clock_speed": 2.4,
+        "boost_clock_speed": 5.3,
+        "consumption": 65,
+        "integrated_gpu": "Intel Xe"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-7980XE",
+        "socket": "LGA2066",
+        "n_cores": 18,
+        "base_clock_speed": 2.6,
+        "boost_clock_speed": 4.4,
+        "consumption": 165,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 3 2200G",
+        "socket": "AM4",
+        "n_cores": 4,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 3.7,
+        "consumption": 65,
+        "integrated_gpu": "Radeon Vega 8"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-2680 V4",
+        "socket": "LGA2011-3",
+        "n_cores": 14,
+        "base_clock_speed": 2.4,
+        "boost_clock_speed": 3.3,
+        "consumption": 120,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 7 1700",
+        "socket": "AM4",
+        "n_cores": 8,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 3.7,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-11600K",
+        "socket": "LGA1200",
+        "n_cores": 6,
+        "base_clock_speed": 3.9,
+        "boost_clock_speed": 4.9,
+        "consumption": 125,
+        "integrated_gpu": "Intel UHD Graphics 750"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD A4-6300",
+        "socket": "FM2",
+        "n_cores": 2,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 3.9,
+        "consumption": 65,
+        "integrated_gpu": "Radeon HD 8370D"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-10700KF",
+        "socket": "LGA1200",
+        "n_cores": 8,
+        "base_clock_speed": 3.8,
+        "boost_clock_speed": 5.1,
+        "consumption": 125,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 7 3700X",
+        "socket": "AM4",
+        "n_cores": 8,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 4.4,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-13100",
+        "socket": "LGA1700",
+        "n_cores": 4,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 4.5,
+        "consumption": 60,
+        "integrated_gpu": "Intel UHD Graphics 730"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 2400G",
+        "socket": "AM4",
+        "n_cores": 4,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 3.9,
+        "consumption": 65,
+        "integrated_gpu": "Radeon Vega 11"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-9700F",
+        "socket": "LGA1151",
+        "n_cores": 8,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 4.7,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-10100",
+        "socket": "LGA1200",
+        "n_cores": 4,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 4.3,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 3600XT",
+        "socket": "AM4",
+        "n_cores": 6,
+        "base_clock_speed": 3.8,
+        "boost_clock_speed": 4.5,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 7 1700X",
+        "socket": "AM4",
+        "n_cores": 8,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 3.8,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Athlon 3000G (14nm)",
+        "socket": "AM4",
+        "n_cores": 2,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 0.0,
+        "consumption": 35,
+        "integrated_gpu": "Radeon Vega 3"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 5600T",
+        "socket": "AM4",
+        "n_cores": 6,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 4.5,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD 2650",
+        "socket": "AM1",
+        "n_cores": 2,
+        "base_clock_speed": 1.45,
+        "boost_clock_speed": 0.0,
+        "consumption": 25,
+        "integrated_gpu": "Radeon HD 8240"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-8100",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 0.0,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-13700",
+        "socket": "LGA1700",
+        "n_cores": 16,
+        "base_clock_speed": 2.1,
+        "boost_clock_speed": 5.2,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 770"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 9 3900XT",
+        "socket": "AM4",
+        "n_cores": 12,
+        "base_clock_speed": 3.8,
+        "boost_clock_speed": 4.7,
+        "consumption": 105,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-4590",
+        "socket": "LGA1150",
+        "n_cores": 4,
+        "base_clock_speed": 3.3,
+        "boost_clock_speed": 3.7,
+        "consumption": 84,
+        "integrated_gpu": "Intel HD Graphics 4600"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 1600X",
+        "socket": "AM4",
+        "n_cores": 6,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 4.0,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-8500",
+        "socket": "LGA1151",
+        "n_cores": 6,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 4.1,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-11900KF",
+        "socket": "LGA1200",
+        "n_cores": 8,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 5.3,
+        "consumption": 125,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-6950X",
+        "socket": "LGA2011-3",
+        "n_cores": 10,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 3.5,
+        "consumption": 140,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-7600K",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 3.8,
+        "boost_clock_speed": 4.2,
+        "consumption": 91,
+        "integrated_gpu": "Intel HD Graphics 630"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 3 1200 (14nm)",
+        "socket": "AM4",
+        "n_cores": 4,
+        "base_clock_speed": 3.1,
+        "boost_clock_speed": 3.4,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Threadripper 2920X",
+        "socket": "sTR4",
+        "n_cores": 12,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 4.3,
+        "consumption": 180,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-10105F",
+        "socket": "LGA1200",
+        "n_cores": 4,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 4.4,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD FX-8350",
+        "socket": "AM3+",
+        "n_cores": 8,
+        "base_clock_speed": 4.0,
+        "boost_clock_speed": 0.0,
+        "consumption": 125,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-3770K",
+        "socket": "LGA1155",
+        "n_cores": 4,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 0.0,
+        "consumption": 77,
+        "integrated_gpu": "Intel HD Graphics 4000"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-4770",
+        "socket": "LGA1150",
+        "n_cores": 4,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 3.9,
+        "consumption": 84,
+        "integrated_gpu": "Intel HD Graphics 4600"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 5600X3D",
+        "socket": "AM4",
+        "n_cores": 6,
+        "base_clock_speed": 3.3,
+        "boost_clock_speed": 4.4,
+        "consumption": 105,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-9400",
+        "socket": "LGA1151",
+        "n_cores": 6,
+        "base_clock_speed": 2.9,
+        "boost_clock_speed": 4.1,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-11700KF",
+        "socket": "LGA1200",
+        "n_cores": 8,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 5.0,
+        "consumption": 125,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-9700KF",
+        "socket": "LGA1151",
+        "n_cores": 8,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 4.9,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-6800K",
+        "socket": "LGA2011-3",
+        "n_cores": 6,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 3.6,
+        "consumption": 140,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-4460",
+        "socket": "LGA1150",
+        "n_cores": 4,
+        "base_clock_speed": 3.2,
+        "boost_clock_speed": 3.4,
+        "consumption": 84,
+        "integrated_gpu": "Intel HD Graphics 4600"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-2687W V4",
+        "socket": "LGA2011-3",
+        "n_cores": 12,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 3.5,
+        "consumption": 160,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-14900F",
+        "socket": "LGA1700",
+        "n_cores": 24,
+        "base_clock_speed": 2.0,
+        "boost_clock_speed": 5.8,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-2400",
+        "socket": "LGA1155",
+        "n_cores": 4,
+        "base_clock_speed": 3.1,
+        "boost_clock_speed": 0.0,
+        "consumption": 95,
+        "integrated_gpu": "Intel HD Graphics 2000"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 1400",
+        "socket": "AM4",
+        "n_cores": 4,
+        "base_clock_speed": 3.2,
+        "boost_clock_speed": 3.4,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-7920X",
+        "socket": "LGA2066",
+        "n_cores": 12,
+        "base_clock_speed": 2.9,
+        "boost_clock_speed": 4.4,
+        "consumption": 140,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core Ultra 7 265F",
+        "socket": "LGA1851",
+        "n_cores": 20,
+        "base_clock_speed": 2.4,
+        "boost_clock_speed": 5.3,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-7100",
+        "socket": "LGA1151",
+        "n_cores": 2,
+        "base_clock_speed": 3.9,
+        "boost_clock_speed": 0.0,
+        "consumption": 51,
+        "integrated_gpu": "Intel HD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-11700",
+        "socket": "LGA1200",
+        "n_cores": 8,
+        "base_clock_speed": 2.5,
+        "boost_clock_speed": 4.9,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 750"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Athlon 200GE",
+        "socket": "AM4",
+        "n_cores": 2,
+        "base_clock_speed": 3.2,
+        "boost_clock_speed": 0.0,
+        "consumption": 35,
+        "integrated_gpu": "Radeon Vega 3"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 3 3300X",
+        "socket": "AM4",
+        "n_cores": 4,
+        "base_clock_speed": 3.8,
+        "boost_clock_speed": 4.3,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-9600KF",
+        "socket": "LGA1151",
+        "n_cores": 6,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 4.6,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-4690",
+        "socket": "LGA1150",
+        "n_cores": 4,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 3.9,
+        "consumption": 84,
+        "integrated_gpu": "Intel HD Graphics 4600"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 7 3800XT",
+        "socket": "AM4",
+        "n_cores": 8,
+        "base_clock_speed": 3.9,
+        "boost_clock_speed": 4.7,
+        "consumption": 105,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-14900",
+        "socket": "LGA1700",
+        "n_cores": 24,
+        "base_clock_speed": 2.0,
+        "boost_clock_speed": 5.8,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 770"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-4570",
+        "socket": "LGA1150",
+        "n_cores": 4,
+        "base_clock_speed": 3.2,
+        "boost_clock_speed": 0.0,
+        "consumption": 84,
+        "integrated_gpu": "Intel HD Graphics 4600"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Celeron G6900",
+        "socket": "LGA1700",
+        "n_cores": 2,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 0.0,
+        "consumption": 46,
+        "integrated_gpu": "Intel UHD Graphics 710"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-9900KS",
+        "socket": "LGA1151",
+        "n_cores": 8,
+        "base_clock_speed": 4.0,
+        "boost_clock_speed": 5.0,
+        "consumption": 127,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD A6-6400K",
+        "socket": "FM2",
+        "n_cores": 2,
+        "base_clock_speed": 3.9,
+        "boost_clock_speed": 0.0,
+        "consumption": 65,
+        "integrated_gpu": "Radeon HD 8470D"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-8700K",
+        "socket": "LGA1151",
+        "n_cores": 6,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 4.7,
+        "consumption": 95,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-6400",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 2.7,
+        "boost_clock_speed": 3.3,
+        "consumption": 65,
+        "integrated_gpu": "Intel HD Graphics 530"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-10305",
+        "socket": "LGA1200",
+        "n_cores": 4,
+        "base_clock_speed": 3.8,
+        "boost_clock_speed": 4.5,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 7 1800X",
+        "socket": "AM4",
+        "n_cores": 8,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 4.0,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD FX-6300",
+        "socket": "AM3+",
+        "n_cores": 6,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 0.0,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-10500",
+        "socket": "LGA1200",
+        "n_cores": 6,
+        "base_clock_speed": 3.1,
+        "boost_clock_speed": 4.5,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-10920X",
+        "socket": "LGA2066",
+        "n_cores": 12,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 4.8,
+        "consumption": 165,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Threadripper 2990WX",
+        "socket": "sTR4",
+        "n_cores": 32,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 4.2,
+        "consumption": 250,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-4790K",
+        "socket": "LGA1150",
+        "n_cores": 4,
+        "base_clock_speed": 4.0,
+        "boost_clock_speed": 4.4,
+        "consumption": 88,
+        "integrated_gpu": "Intel HD Graphics 4600"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-10980XE",
+        "socket": "LGA2066",
+        "n_cores": 18,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 4.8,
+        "consumption": 165,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-2600",
+        "socket": "LGA1155",
+        "n_cores": 4,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 0.0,
+        "consumption": 95,
+        "integrated_gpu": "Intel HD Graphics 2000"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Pentium E5700",
+        "socket": "LGA775",
+        "n_cores": 2,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 0.0,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-7600",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 4.1,
+        "consumption": 65,
+        "integrated_gpu": "Intel HD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-6100",
+        "socket": "LGA1151",
+        "n_cores": 2,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 0.0,
+        "consumption": 51,
+        "integrated_gpu": "Intel HD Graphics 530"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-11600KF",
+        "socket": "LGA1200",
+        "n_cores": 6,
+        "base_clock_speed": 3.9,
+        "boost_clock_speed": 4.9,
+        "consumption": 125,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 1500X",
+        "socket": "AM4",
+        "n_cores": 4,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 3.7,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-9100",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 4.2,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-6600",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 3.3,
+        "boost_clock_speed": 3.9,
+        "consumption": 65,
+        "integrated_gpu": "Intel HD Graphics 530"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-10900KF",
+        "socket": "LGA1200",
+        "n_cores": 10,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 5.3,
+        "consumption": 125,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Athlon II X2 240",
+        "socket": "AM3",
+        "n_cores": 2,
+        "base_clock_speed": 2.8,
+        "boost_clock_speed": 0.0,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Pentium Gold G7400",
+        "socket": "LGA1700",
+        "n_cores": 2,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 0.0,
+        "consumption": 46,
+        "integrated_gpu": "Intel UHD Graphics 710"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Celeron 420",
+        "socket": "LGA775",
+        "n_cores": 1,
+        "base_clock_speed": 1.6,
+        "boost_clock_speed": 0.0,
+        "consumption": 35,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core 2 Duo E8400",
+        "socket": "LGA775",
+        "n_cores": 2,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 0.0,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-13900",
+        "socket": "LGA1700",
+        "n_cores": 24,
+        "base_clock_speed": 2.0,
+        "boost_clock_speed": 5.6,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 770"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 7600X3D",
+        "socket": "AM5",
+        "n_cores": 6,
+        "base_clock_speed": 4.1,
+        "boost_clock_speed": 4.7,
+        "consumption": 65,
+        "integrated_gpu": "Radeon"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-2640 V3",
+        "socket": "LGA2011-3",
+        "n_cores": 8,
+        "base_clock_speed": 2.6,
+        "boost_clock_speed": 3.4,
+        "consumption": 90,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-9500",
+        "socket": "LGA1151",
+        "n_cores": 6,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 4.4,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E3-1220 V6",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 3.5,
+        "consumption": 72,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Athlon X2 340",
+        "socket": "FM2",
+        "n_cores": 2,
+        "base_clock_speed": 3.2,
+        "boost_clock_speed": 0.0,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-3570K",
+        "socket": "LGA1155",
+        "n_cores": 4,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 0.0,
+        "consumption": 77,
+        "integrated_gpu": "Intel HD Graphics 4000"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-10900F",
+        "socket": "LGA1200",
+        "n_cores": 10,
+        "base_clock_speed": 2.8,
+        "boost_clock_speed": 5.2,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Threadripper 1950X",
+        "socket": "sTR4",
+        "n_cores": 16,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 4.0,
+        "consumption": 180,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 9 PRO 7945",
+        "socket": "AM5",
+        "n_cores": 12,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 5.4,
+        "consumption": 65,
+        "integrated_gpu": "Radeon"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-2690 V4",
+        "socket": "LGA2011-3",
+        "n_cores": 14,
+        "base_clock_speed": 2.6,
+        "boost_clock_speed": 3.5,
+        "consumption": 135,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-2600K",
+        "socket": "LGA1155",
+        "n_cores": 4,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 0.0,
+        "consumption": 95,
+        "integrated_gpu": "Intel HD Graphics 3000"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-8600",
+        "socket": "LGA1151",
+        "n_cores": 6,
+        "base_clock_speed": 3.1,
+        "boost_clock_speed": 4.3,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-4130",
+        "socket": "LGA1150",
+        "n_cores": 2,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 0.0,
+        "consumption": 54,
+        "integrated_gpu": "Intel HD Graphics 4400"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-9400F",
+        "socket": "LGA1151",
+        "n_cores": 6,
+        "base_clock_speed": 2.9,
+        "boost_clock_speed": 4.1,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-4670K",
+        "socket": "LGA1150",
+        "n_cores": 4,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 0.0,
+        "consumption": 84,
+        "integrated_gpu": "Intel HD Graphics 4600"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Pentium G640",
+        "socket": "LGA1155",
+        "n_cores": 2,
+        "base_clock_speed": 2.8,
+        "boost_clock_speed": 0.0,
+        "consumption": 65,
+        "integrated_gpu": "Intel HD Graphics"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-10105",
+        "socket": "LGA1200",
+        "n_cores": 4,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 4.4,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-9900K",
+        "socket": "LGA1151",
+        "n_cores": 8,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 5.0,
+        "consumption": 95,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-8700",
+        "socket": "LGA1151",
+        "n_cores": 6,
+        "base_clock_speed": 3.2,
+        "boost_clock_speed": 4.6,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-5820K",
+        "socket": "LGA2011-3",
+        "n_cores": 6,
+        "base_clock_speed": 3.3,
+        "boost_clock_speed": 3.6,
+        "consumption": 140,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-9940X",
+        "socket": "LGA2066",
+        "n_cores": 14,
+        "base_clock_speed": 3.3,
+        "boost_clock_speed": 4.4,
+        "consumption": 165,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-12600",
+        "socket": "LGA1700",
+        "n_cores": 6,
+        "base_clock_speed": 3.3,
+        "boost_clock_speed": 4.8,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 770"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 3600",
+        "socket": "AM4",
+        "n_cores": 6,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 4.2,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-2500K",
+        "socket": "LGA1155",
+        "n_cores": 4,
+        "base_clock_speed": 3.3,
+        "boost_clock_speed": 0.0,
+        "consumption": 95,
+        "integrated_gpu": "Intel HD Graphics 3000"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-12900F",
+        "socket": "LGA1700",
+        "n_cores": 16,
+        "base_clock_speed": 2.4,
+        "boost_clock_speed": 5.1,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 9 3900X",
+        "socket": "AM4",
+        "n_cores": 12,
+        "base_clock_speed": 3.8,
+        "boost_clock_speed": 4.6,
+        "consumption": 105,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-4790",
+        "socket": "LGA1150",
+        "n_cores": 4,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 4.0,
+        "consumption": 84,
+        "integrated_gpu": "Intel HD Graphics 4600"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-6900K",
+        "socket": "LGA2011-3",
+        "n_cores": 8,
+        "base_clock_speed": 3.2,
+        "boost_clock_speed": 3.7,
+        "consumption": 140,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-3570",
+        "socket": "LGA1155",
+        "n_cores": 4,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 0.0,
+        "consumption": 77,
+        "integrated_gpu": "Intel HD Graphics 2500"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-7700",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 4.2,
+        "consumption": 65,
+        "integrated_gpu": "Intel HD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-8400",
+        "socket": "LGA1151",
+        "n_cores": 6,
+        "base_clock_speed": 2.8,
+        "boost_clock_speed": 4.0,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Pentium G4400",
+        "socket": "LGA1151",
+        "n_cores": 2,
+        "base_clock_speed": 3.3,
+        "boost_clock_speed": 0.0,
+        "consumption": 54,
+        "integrated_gpu": "Intel HD Graphics 510"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD EPYC 4244P",
+        "socket": "AM5",
+        "n_cores": 6,
+        "base_clock_speed": 3.8,
+        "boost_clock_speed": 5.1,
+        "consumption": 65,
+        "integrated_gpu": "Radeon"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-11600",
+        "socket": "LGA1200",
+        "n_cores": 6,
+        "base_clock_speed": 2.8,
+        "boost_clock_speed": 4.8,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 750"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD FX-6350",
+        "socket": "AM3+",
+        "n_cores": 6,
+        "base_clock_speed": 3.9,
+        "boost_clock_speed": 0.0,
+        "consumption": 125,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Threadripper 1920X",
+        "socket": "sTR4",
+        "n_cores": 12,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 4.0,
+        "consumption": 180,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD EPYC 4464P",
+        "socket": "AM5",
+        "n_cores": 12,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 5.4,
+        "consumption": 65,
+        "integrated_gpu": "Radeon"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-8086K",
+        "socket": "LGA1151",
+        "n_cores": 6,
+        "base_clock_speed": 4.0,
+        "boost_clock_speed": 5.0,
+        "consumption": 95,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-9700K",
+        "socket": "LGA1151",
+        "n_cores": 8,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 4.9,
+        "consumption": 95,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-2620",
+        "socket": "LGA2011",
+        "n_cores": 6,
+        "base_clock_speed": 2.0,
+        "boost_clock_speed": 0.0,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-11500",
+        "socket": "LGA1200",
+        "n_cores": 6,
+        "base_clock_speed": 2.7,
+        "boost_clock_speed": 4.6,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 750"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Threadripper 2970WX",
+        "socket": "sTR4",
+        "n_cores": 24,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 4.2,
+        "consumption": 250,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-4770S",
+        "socket": "LGA1150",
+        "n_cores": 4,
+        "base_clock_speed": 3.1,
+        "boost_clock_speed": 0.0,
+        "consumption": 65,
+        "integrated_gpu": "Intel HD Graphics 4600"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-12100T",
+        "socket": "LGA1700",
+        "n_cores": 4,
+        "base_clock_speed": 2.2,
+        "boost_clock_speed": 4.1,
+        "consumption": 35,
+        "integrated_gpu": "Intel UHD Graphics 730"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Pentium Gold G6400",
+        "socket": "LGA1200",
+        "n_cores": 2,
+        "base_clock_speed": 4.0,
+        "boost_clock_speed": 0.0,
+        "consumption": 58,
+        "integrated_gpu": "Intel UHD Graphics 610"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-7900X",
+        "socket": "LGA2066",
+        "n_cores": 10,
+        "base_clock_speed": 3.3,
+        "boost_clock_speed": 4.5,
+        "consumption": 140,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel 300",
+        "socket": "LGA1700",
+        "n_cores": 2,
+        "base_clock_speed": 3.9,
+        "boost_clock_speed": 0.0,
+        "consumption": 46,
+        "integrated_gpu": "Intel UHD Graphics 710"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-7100T",
+        "socket": "LGA1151",
+        "n_cores": 2,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 0.0,
+        "consumption": 35,
+        "integrated_gpu": "Intel HD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-9900",
+        "socket": "LGA1151",
+        "n_cores": 8,
+        "base_clock_speed": 3.1,
+        "boost_clock_speed": 5.0,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-2650 V4",
+        "socket": "LGA2011-3",
+        "n_cores": 12,
+        "base_clock_speed": 2.2,
+        "boost_clock_speed": 2.9,
+        "consumption": 105,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 5600XT",
+        "socket": "AM4",
+        "n_cores": 6,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 4.7,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Celeron G5925",
+        "socket": "LGA1200",
+        "n_cores": 2,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 0.0,
+        "consumption": 58,
+        "integrated_gpu": "Intel UHD Graphics 610"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Celeron G5900",
+        "socket": "LGA1200",
+        "n_cores": 2,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 0.0,
+        "consumption": 58,
+        "integrated_gpu": "Intel UHD Graphics 610"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-6500",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 3.2,
+        "boost_clock_speed": 3.6,
+        "consumption": 65,
+        "integrated_gpu": "Intel HD Graphics 530"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD FX-9590",
+        "socket": "AM3+",
+        "n_cores": 8,
+        "base_clock_speed": 4.7,
+        "boost_clock_speed": 5.0,
+        "consumption": 220,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-12900",
+        "socket": "LGA1700",
+        "n_cores": 16,
+        "base_clock_speed": 2.4,
+        "boost_clock_speed": 5.1,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 770"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-8500T",
+        "socket": "LGA1151",
+        "n_cores": 6,
+        "base_clock_speed": 2.1,
+        "boost_clock_speed": 3.5,
+        "consumption": 35,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-10900X",
+        "socket": "LGA2066",
+        "n_cores": 10,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 4.7,
+        "consumption": 165,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-4960X Extreme Edition",
+        "socket": "LGA2011",
+        "n_cores": 6,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 4.0,
+        "consumption": 130,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-1630 V4",
+        "socket": "LGA2011-3",
+        "n_cores": 4,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 4.0,
+        "consumption": 140,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Celeron E3400",
+        "socket": "LGA775",
+        "n_cores": 2,
+        "base_clock_speed": 2.6,
+        "boost_clock_speed": 0.0,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-13900T",
+        "socket": "LGA1700",
+        "n_cores": 24,
+        "base_clock_speed": 1.1,
+        "boost_clock_speed": 5.3,
+        "consumption": 35,
+        "integrated_gpu": "Intel UHD Graphics 770"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-13900F",
+        "socket": "LGA1700",
+        "n_cores": 24,
+        "base_clock_speed": 2.0,
+        "boost_clock_speed": 5.6,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 3 1200 (12nm)",
+        "socket": "AM4",
+        "n_cores": 4,
+        "base_clock_speed": 3.1,
+        "boost_clock_speed": 3.4,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-10900",
+        "socket": "LGA1200",
+        "n_cores": 10,
+        "base_clock_speed": 2.8,
+        "boost_clock_speed": 5.2,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Pentium G630",
+        "socket": "LGA1155",
+        "n_cores": 2,
+        "base_clock_speed": 2.7,
+        "boost_clock_speed": 0.0,
+        "consumption": 65,
+        "integrated_gpu": "Intel HD Graphics"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-3220",
+        "socket": "LGA1155",
+        "n_cores": 2,
+        "base_clock_speed": 3.3,
+        "boost_clock_speed": 0.0,
+        "consumption": 55,
+        "integrated_gpu": "Intel HD Graphics 2500"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-7700K",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 4.2,
+        "boost_clock_speed": 4.5,
+        "consumption": 91,
+        "integrated_gpu": "Intel HD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-4440",
+        "socket": "LGA1150",
+        "n_cores": 4,
+        "base_clock_speed": 3.1,
+        "boost_clock_speed": 3.3,
+        "consumption": 84,
+        "integrated_gpu": "Intel HD Graphics 4600"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-7820X",
+        "socket": "LGA2066",
+        "n_cores": 8,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 4.5,
+        "consumption": 140,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 2600",
+        "socket": "AM4",
+        "n_cores": 6,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 3.9,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-4930K",
+        "socket": "LGA2011",
+        "n_cores": 6,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 3.9,
+        "consumption": 130,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-2100",
+        "socket": "LGA1155",
+        "n_cores": 2,
+        "base_clock_speed": 3.1,
+        "boost_clock_speed": 0.0,
+        "consumption": 65,
+        "integrated_gpu": "Intel HD Graphics 2000"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 3 1300X",
+        "socket": "AM4",
+        "n_cores": 4,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 3.7,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-2700K",
+        "socket": "LGA1155",
+        "n_cores": 4,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 0.0,
+        "consumption": 95,
+        "integrated_gpu": "Intel HD Graphics 3000"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-2630 V4",
+        "socket": "LGA2011-3",
+        "n_cores": 10,
+        "base_clock_speed": 2.2,
+        "boost_clock_speed": 3.1,
+        "consumption": 85,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-6700K",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 4.0,
+        "boost_clock_speed": 4.2,
+        "consumption": 91,
+        "integrated_gpu": "Intel HD Graphics 530"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-11900F",
+        "socket": "LGA1200",
+        "n_cores": 8,
+        "base_clock_speed": 2.5,
+        "boost_clock_speed": 5.2,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-2695 V4",
+        "socket": "LGA2011-3",
+        "n_cores": 18,
+        "base_clock_speed": 2.1,
+        "boost_clock_speed": 3.3,
+        "consumption": 120,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 3600X",
+        "socket": "AM4",
+        "n_cores": 6,
+        "base_clock_speed": 3.8,
+        "boost_clock_speed": 4.4,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-9900K (Standard Folding Box)",
+        "socket": "LGA1151",
+        "n_cores": 8,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 5.0,
+        "consumption": 95,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-2683 V4",
+        "socket": "LGA2011-3",
+        "n_cores": 16,
+        "base_clock_speed": 2.1,
+        "boost_clock_speed": 3.0,
+        "consumption": 120,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-4170",
+        "socket": "LGA1150",
+        "n_cores": 2,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 0.0,
+        "consumption": 54,
+        "integrated_gpu": "Intel HD Graphics 4400"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 3 3200G",
+        "socket": "AM4",
+        "n_cores": 4,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 4.0,
+        "consumption": 65,
+        "integrated_gpu": "Radeon Vega 8"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 7 3800X",
+        "socket": "AM4",
+        "n_cores": 8,
+        "base_clock_speed": 3.9,
+        "boost_clock_speed": 4.5,
+        "consumption": 105,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-10940X",
+        "socket": "LGA2066",
+        "n_cores": 14,
+        "base_clock_speed": 3.3,
+        "boost_clock_speed": 4.8,
+        "consumption": 165,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD FX-8320",
+        "socket": "AM3+",
+        "n_cores": 8,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 0.0,
+        "consumption": 125,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Pentium G4560",
+        "socket": "LGA1151",
+        "n_cores": 2,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 0.0,
+        "consumption": 54,
+        "integrated_gpu": "Intel HD Graphics 610"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 2600X",
+        "socket": "AM4",
+        "n_cores": 6,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 4.2,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-11900",
+        "socket": "LGA1200",
+        "n_cores": 8,
+        "base_clock_speed": 2.5,
+        "boost_clock_speed": 5.2,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 750"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-4620",
+        "socket": "LGA2011",
+        "n_cores": 8,
+        "base_clock_speed": 2.2,
+        "boost_clock_speed": 2.6,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-2500",
+        "socket": "LGA1155",
+        "n_cores": 4,
+        "base_clock_speed": 3.3,
+        "boost_clock_speed": 0.0,
+        "consumption": 95,
+        "integrated_gpu": "Intel HD Graphics 2000"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-9600K",
+        "socket": "LGA1151",
+        "n_cores": 6,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 4.6,
+        "consumption": 95,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD A8-6600K",
+        "socket": "FM2",
+        "n_cores": 4,
+        "base_clock_speed": 3.9,
+        "boost_clock_speed": 0.0,
+        "consumption": 100,
+        "integrated_gpu": "Radeon HD 8570D"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-1650 V4",
+        "socket": "LGA2011-3",
+        "n_cores": 6,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 4.0,
+        "consumption": 140,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-14500T",
+        "socket": "LGA1700",
+        "n_cores": 14,
+        "base_clock_speed": 1.7,
+        "boost_clock_speed": 4.8,
+        "consumption": 35,
+        "integrated_gpu": "Intel UHD Graphics 770"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD A10-6700",
+        "socket": "FM2",
+        "n_cores": 4,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 0.0,
+        "consumption": 65,
+        "integrated_gpu": "Radeon HD 8670D"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 3600",
+        "socket": "AM4",
+        "n_cores": 6,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 4.2,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD FX-4350",
+        "socket": "AM3+",
+        "n_cores": 4,
+        "base_clock_speed": 4.2,
+        "boost_clock_speed": 0.0,
+        "consumption": 125,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-13500T",
+        "socket": "LGA1700",
+        "n_cores": 14,
+        "base_clock_speed": 1.6,
+        "boost_clock_speed": 4.6,
+        "consumption": 35,
+        "integrated_gpu": "Intel UHD Graphics 770"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-7800X",
+        "socket": "LGA2066",
+        "n_cores": 6,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 4.0,
+        "consumption": 140,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-2630 V3",
+        "socket": "LGA2011-3",
+        "n_cores": 8,
+        "base_clock_speed": 2.4,
+        "boost_clock_speed": 3.2,
+        "consumption": 85,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD EPYC 4344P",
+        "socket": "AM5",
+        "n_cores": 8,
+        "base_clock_speed": 3.8,
+        "boost_clock_speed": 5.3,
+        "consumption": 65,
+        "integrated_gpu": "Radeon"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-6850K",
+        "socket": "LGA2011-3",
+        "n_cores": 6,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 3.8,
+        "consumption": 140,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Celeron G4900",
+        "socket": "LGA1151",
+        "n_cores": 2,
+        "base_clock_speed": 3.1,
+        "boost_clock_speed": 0.0,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 610"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-7740X",
+        "socket": "LGA2066",
+        "n_cores": 4,
+        "base_clock_speed": 4.3,
+        "boost_clock_speed": 4.5,
+        "consumption": 112,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Threadripper 1900X",
+        "socket": "sTR4",
+        "n_cores": 8,
+        "base_clock_speed": 3.8,
+        "boost_clock_speed": 4.0,
+        "consumption": 180,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 3400G",
+        "socket": "AM4",
+        "n_cores": 4,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 4.2,
+        "consumption": 65,
+        "integrated_gpu": "Radeon Vega 11"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-6300",
+        "socket": "LGA1151",
+        "n_cores": 2,
+        "base_clock_speed": 3.8,
+        "boost_clock_speed": 0.0,
+        "consumption": 51,
+        "integrated_gpu": "Intel HD Graphics 530"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-9980XE",
+        "socket": "LGA2066",
+        "n_cores": 18,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 4.4,
+        "consumption": 165,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD FX-8300",
+        "socket": "AM3+",
+        "n_cores": 8,
+        "base_clock_speed": 3.3,
+        "boost_clock_speed": 0.0,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 9 3900",
+        "socket": "AM4",
+        "n_cores": 12,
+        "base_clock_speed": 3.1,
+        "boost_clock_speed": 0.0,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Athlon II X4 640",
+        "socket": "AM3",
+        "n_cores": 4,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 0.0,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-920",
+        "socket": "LGA1366",
+        "n_cores": 4,
+        "base_clock_speed": 2.66,
+        "boost_clock_speed": 0.0,
+        "consumption": 130,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-2699 V3",
+        "socket": "LGA2011-3",
+        "n_cores": 18,
+        "base_clock_speed": 2.3,
+        "boost_clock_speed": 3.6,
+        "consumption": 145,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Celeron G5905",
+        "socket": "LGA1200",
+        "n_cores": 2,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 0.0,
+        "consumption": 58,
+        "integrated_gpu": "Intel UHD Graphics 610"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD 5350",
+        "socket": "AM1",
+        "n_cores": 4,
+        "base_clock_speed": 2.05,
+        "boost_clock_speed": 0.0,
+        "consumption": 25,
+        "integrated_gpu": "Radeon HD 8400"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-3330",
+        "socket": "LGA1155",
+        "n_cores": 4,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 0.0,
+        "consumption": 77,
+        "integrated_gpu": "Intel HD Graphics 2500"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-2698 V4",
+        "socket": "LGA2011-3",
+        "n_cores": 20,
+        "base_clock_speed": 2.2,
+        "boost_clock_speed": 3.6,
+        "consumption": 135,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Phenom II X6 1090T Black",
+        "socket": "AM3",
+        "n_cores": 6,
+        "base_clock_speed": 3.2,
+        "boost_clock_speed": 0.0,
+        "consumption": 125,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-9700",
+        "socket": "LGA1151",
+        "n_cores": 8,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 4.7,
+        "consumption": 65,
+        "integrated_gpu": "Intel HD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-2667 V3",
+        "socket": "LGA2011-3",
+        "n_cores": 8,
+        "base_clock_speed": 3.2,
+        "boost_clock_speed": 3.6,
+        "consumption": 135,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-5960X",
+        "socket": "LGA2011-3",
+        "n_cores": 8,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 3.5,
+        "consumption": 140,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-7400T",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 2.4,
+        "boost_clock_speed": 3.0,
+        "consumption": 35,
+        "integrated_gpu": "Intel HD Graphics 630"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD A10-9700",
+        "socket": "AM4",
+        "n_cores": 4,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 3.8,
+        "consumption": 65,
+        "integrated_gpu": "Radeon R7 (on-die)"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-6700",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 4.0,
+        "consumption": 65,
+        "integrated_gpu": "Intel HD Graphics 530"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-2120",
+        "socket": "LGA1155",
+        "n_cores": 2,
+        "base_clock_speed": 3.3,
+        "boost_clock_speed": 0.0,
+        "consumption": 65,
+        "integrated_gpu": "Intel HD Graphics 2000"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Threadripper 2950X",
+        "socket": "sTR4",
+        "n_cores": 16,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 4.4,
+        "consumption": 180,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-9600",
+        "socket": "LGA1151",
+        "n_cores": 6,
+        "base_clock_speed": 3.1,
+        "boost_clock_speed": 4.6,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD FX-8320",
+        "socket": "AM3+",
+        "n_cores": 8,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 0.0,
+        "consumption": 125,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-5930K",
+        "socket": "LGA2011-3",
+        "n_cores": 6,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 3.7,
+        "consumption": 140,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-2683 V4",
+        "socket": "LGA2011-3",
+        "n_cores": 16,
+        "base_clock_speed": 2.1,
+        "boost_clock_speed": 3.0,
+        "consumption": 120,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD FX-6300",
+        "socket": "AM3+",
+        "n_cores": 6,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 0.0,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-3770S",
+        "socket": "LGA1155",
+        "n_cores": 4,
+        "base_clock_speed": 3.1,
+        "boost_clock_speed": 0.0,
+        "consumption": 65,
+        "integrated_gpu": "Intel HD Graphics 4000"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-13700T",
+        "socket": "LGA1700",
+        "n_cores": 16,
+        "base_clock_speed": 1.4,
+        "boost_clock_speed": 4.9,
+        "consumption": 35,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD FX-6100",
+        "socket": "AM3+",
+        "n_cores": 6,
+        "base_clock_speed": 3.3,
+        "boost_clock_speed": 0.0,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 5600T",
+        "socket": "AM4",
+        "n_cores": 6,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 4.5,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD A8-7600",
+        "socket": "FM2+",
+        "n_cores": 4,
+        "base_clock_speed": 3.1,
+        "boost_clock_speed": 3.8,
+        "consumption": 65,
+        "integrated_gpu": "Radeon R7 (on-die)"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-9700F",
+        "socket": "LGA1151",
+        "n_cores": 8,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 4.7,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD FX-4350",
+        "socket": "AM3+",
+        "n_cores": 4,
+        "base_clock_speed": 4.2,
+        "boost_clock_speed": 0.0,
+        "consumption": 125,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-4820K",
+        "socket": "LGA2011",
+        "n_cores": 4,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 3.9,
+        "consumption": 130,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD FX-8370",
+        "socket": "AM3+",
+        "n_cores": 8,
+        "base_clock_speed": 4.0,
+        "boost_clock_speed": 4.3,
+        "consumption": 125,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-3930K",
+        "socket": "LGA2011",
+        "n_cores": 6,
+        "base_clock_speed": 3.2,
+        "boost_clock_speed": 0.0,
+        "consumption": 130,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD A10-7850K",
+        "socket": "FM2+",
+        "n_cores": 4,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 4.0,
+        "consumption": 95,
+        "integrated_gpu": "Radeon R7 (on-die)"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-980X Extreme Edition",
+        "socket": "LGA1366",
+        "n_cores": 6,
+        "base_clock_speed": 3.33,
+        "boost_clock_speed": 0.0,
+        "consumption": 130,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-2697 V4",
+        "socket": "LGA2011-3",
+        "n_cores": 18,
+        "base_clock_speed": 2.3,
+        "boost_clock_speed": 3.6,
+        "consumption": 145,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-2670 V3",
+        "socket": "LGA2011-3",
+        "n_cores": 12,
+        "base_clock_speed": 2.3,
+        "boost_clock_speed": 3.1,
+        "consumption": 120,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-7700T",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 2.9,
+        "boost_clock_speed": 3.8,
+        "consumption": 35,
+        "integrated_gpu": "Intel HD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-10600",
+        "socket": "LGA1200",
+        "n_cores": 6,
+        "base_clock_speed": 3.3,
+        "boost_clock_speed": 4.8,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core 2 Quad Q9300",
+        "socket": "LGA775",
+        "n_cores": 4,
+        "base_clock_speed": 2.5,
+        "boost_clock_speed": 0.0,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-2680 V3",
+        "socket": "LGA2011-3",
+        "n_cores": 12,
+        "base_clock_speed": 2.5,
+        "boost_clock_speed": 3.3,
+        "consumption": 120,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-8600K",
+        "socket": "LGA1151",
+        "n_cores": 6,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 4.3,
+        "consumption": 95,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 2400G",
+        "socket": "AM4",
+        "n_cores": 4,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 3.9,
+        "consumption": 65,
+        "integrated_gpu": "Radeon Vega 11"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD EPYC 4364P",
+        "socket": "AM5",
+        "n_cores": 8,
+        "base_clock_speed": 4.5,
+        "boost_clock_speed": 5.4,
+        "consumption": 105,
+        "integrated_gpu": "Radeon"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-9980XE",
+        "socket": "LGA2066",
+        "n_cores": 18,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 4.4,
+        "consumption": 165,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-2620 V3",
+        "socket": "LGA2011-3",
+        "n_cores": 6,
+        "base_clock_speed": 2.4,
+        "boost_clock_speed": 3.2,
+        "consumption": 85,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-4670",
+        "socket": "LGA1150",
+        "n_cores": 4,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 0.0,
+        "consumption": 84,
+        "integrated_gpu": "Intel HD Graphics 4600"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Pentium Gold G5400",
+        "socket": "LGA1151",
+        "n_cores": 2,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 0.0,
+        "consumption": 58,
+        "integrated_gpu": "Intel UHD Graphics 610"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-3470S",
+        "socket": "LGA1155",
+        "n_cores": 4,
+        "base_clock_speed": 2.9,
+        "boost_clock_speed": 0.0,
+        "consumption": 65,
+        "integrated_gpu": "Intel HD Graphics 2500"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-9600KF",
+        "socket": "LGA1151",
+        "n_cores": 6,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 4.6,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-8400T",
+        "socket": "LGA1151",
+        "n_cores": 6,
+        "base_clock_speed": 1.7,
+        "boost_clock_speed": 3.3,
+        "consumption": 35,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 9 3950X",
+        "socket": "AM4",
+        "n_cores": 16,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 4.7,
+        "consumption": 105,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-2697 V2",
+        "socket": "LGA2011",
+        "n_cores": 12,
+        "base_clock_speed": 2.7,
+        "boost_clock_speed": 3.5,
+        "consumption": 130,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Celeron G3900",
+        "socket": "LGA1151",
+        "n_cores": 2,
+        "base_clock_speed": 2.8,
+        "boost_clock_speed": 0.0,
+        "consumption": 51,
+        "integrated_gpu": "Intel HD Graphics 510"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-7320",
+        "socket": "LGA1151",
+        "n_cores": 2,
+        "base_clock_speed": 4.1,
+        "boost_clock_speed": 0.0,
+        "consumption": 51,
+        "integrated_gpu": "Intel HD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-5820K",
+        "socket": "LGA2011-3",
+        "n_cores": 6,
+        "base_clock_speed": 3.3,
+        "boost_clock_speed": 3.6,
+        "consumption": 140,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD A10-5700",
+        "socket": "FM2",
+        "n_cores": 4,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 0.0,
+        "consumption": 65,
+        "integrated_gpu": "Radeon HD 7660D"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-6402P",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 2.8,
+        "boost_clock_speed": 3.4,
+        "consumption": 65,
+        "integrated_gpu": "Intel HD Graphics 510"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-4160",
+        "socket": "LGA1150",
+        "n_cores": 2,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 0.0,
+        "consumption": 54,
+        "integrated_gpu": "Intel HD Graphics 4400"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 7 PRO 7745",
+        "socket": "AM5",
+        "n_cores": 8,
+        "base_clock_speed": 3.8,
+        "boost_clock_speed": 5.3,
+        "consumption": 65,
+        "integrated_gpu": "Radeon"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD FX-4300",
+        "socket": "AM3+",
+        "n_cores": 4,
+        "base_clock_speed": 3.8,
+        "boost_clock_speed": 0.0,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-8700T",
+        "socket": "LGA1151",
+        "n_cores": 6,
+        "base_clock_speed": 2.4,
+        "boost_clock_speed": 4.0,
+        "consumption": 35,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 5 PRO 7645",
+        "socket": "AM5",
+        "n_cores": 6,
+        "base_clock_speed": 3.8,
+        "boost_clock_speed": 5.1,
+        "consumption": 65,
+        "integrated_gpu": "Radeon"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Athlon II 160u",
+        "socket": "AM3",
+        "n_cores": 1,
+        "base_clock_speed": 1.8,
+        "boost_clock_speed": 0.0,
+        "consumption": 20,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-13100T",
+        "socket": "LGA1700",
+        "n_cores": 4,
+        "base_clock_speed": 2.5,
+        "boost_clock_speed": 4.2,
+        "consumption": 35,
+        "integrated_gpu": "Intel UHD Graphics 730"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD FX-6120",
+        "socket": "AM3+",
+        "n_cores": 6,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 4.1,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-2650",
+        "socket": "LGA2011",
+        "n_cores": 8,
+        "base_clock_speed": 2.0,
+        "boost_clock_speed": 2.8,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-13600",
+        "socket": "LGA1700",
+        "n_cores": 14,
+        "base_clock_speed": 2.7,
+        "boost_clock_speed": 5.0,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 770"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-6950X",
+        "socket": "LGA2011-3",
+        "n_cores": 10,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 3.5,
+        "consumption": 140,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-2680",
+        "socket": "LGA2011",
+        "n_cores": 8,
+        "base_clock_speed": 2.7,
+        "boost_clock_speed": 3.5,
+        "consumption": 130,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-1620 V2",
+        "socket": "LGA2011",
+        "n_cores": 4,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 3.9,
+        "consumption": 130,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-2640 V4",
+        "socket": "LGA2011-3",
+        "n_cores": 10,
+        "base_clock_speed": 2.4,
+        "boost_clock_speed": 3.4,
+        "consumption": 90,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core 2 Quad Q9550",
+        "socket": "LGA775",
+        "n_cores": 4,
+        "base_clock_speed": 2.83,
+        "boost_clock_speed": 0.0,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-4790S",
+        "socket": "LGA1150",
+        "n_cores": 4,
+        "base_clock_speed": 3.2,
+        "boost_clock_speed": 4.0,
+        "consumption": 65,
+        "integrated_gpu": "Intel HD Graphics 4000"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-860",
+        "socket": "LGA1156",
+        "n_cores": 4,
+        "base_clock_speed": 2.8,
+        "boost_clock_speed": 0.0,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core 2 Quad Q6600",
+        "socket": "LGA775",
+        "n_cores": 4,
+        "base_clock_speed": 2.4,
+        "boost_clock_speed": 0.0,
+        "consumption": 100,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-3820",
+        "socket": "LGA2011",
+        "n_cores": 4,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 0.0,
+        "consumption": 130,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E-2124",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 3.3,
+        "boost_clock_speed": 4.3,
+        "consumption": 71,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-4430",
+        "socket": "LGA1150",
+        "n_cores": 4,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 0.0,
+        "consumption": 84,
+        "integrated_gpu": "Intel HD Graphics 4600"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-8350K",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 4.0,
+        "boost_clock_speed": 0.0,
+        "consumption": 91,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-10850KA Avengers Limited Edition",
+        "socket": "LGA1200",
+        "n_cores": 10,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 5.2,
+        "consumption": 125,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-650",
+        "socket": "LGA1156",
+        "n_cores": 2,
+        "base_clock_speed": 3.2,
+        "boost_clock_speed": 0.0,
+        "consumption": 73,
+        "integrated_gpu": "Intel HD Graphics"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-8100T",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 3.1,
+        "boost_clock_speed": 0.0,
+        "consumption": 35,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD A8-7680",
+        "socket": "FM2+",
+        "n_cores": 4,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 3.8,
+        "consumption": 65,
+        "integrated_gpu": "Radeon R7 (on-die)"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD FX-8350",
+        "socket": "AM3+",
+        "n_cores": 8,
+        "base_clock_speed": 4.0,
+        "boost_clock_speed": 0.0,
+        "consumption": 125,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-530",
+        "socket": "LGA1156",
+        "n_cores": 2,
+        "base_clock_speed": 2.93,
+        "boost_clock_speed": 0.0,
+        "consumption": 73,
+        "integrated_gpu": "Intel HD Graphics"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 7 1700X",
+        "socket": "AM4",
+        "n_cores": 8,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 3.8,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD EPYC 4584PX",
+        "socket": "AM5",
+        "n_cores": 16,
+        "base_clock_speed": 4.2,
+        "boost_clock_speed": 5.7,
+        "consumption": 120,
+        "integrated_gpu": "Radeon"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-4770K",
+        "socket": "LGA1150",
+        "n_cores": 4,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 3.9,
+        "consumption": 84,
+        "integrated_gpu": "Intel HD Graphics 4600"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-3450",
+        "socket": "LGA1155",
+        "n_cores": 4,
+        "base_clock_speed": 3.1,
+        "boost_clock_speed": 0.0,
+        "consumption": 77,
+        "integrated_gpu": "Intel HD Graphics 2500"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-6700T",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 2.8,
+        "boost_clock_speed": 3.6,
+        "consumption": 35,
+        "integrated_gpu": "Intel HD Graphics 530"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD A8-9600",
+        "socket": "AM4",
+        "n_cores": 4,
+        "base_clock_speed": 3.1,
+        "boost_clock_speed": 3.4,
+        "consumption": 65,
+        "integrated_gpu": "Radeon R7 (on-die)"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-2600S",
+        "socket": "LGA1155",
+        "n_cores": 4,
+        "base_clock_speed": 2.8,
+        "boost_clock_speed": 0.0,
+        "consumption": 65,
+        "integrated_gpu": "Intel HD Graphics 2000"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-4570T",
+        "socket": "LGA1150",
+        "n_cores": 2,
+        "base_clock_speed": 2.9,
+        "boost_clock_speed": 0.0,
+        "consumption": 35,
+        "integrated_gpu": "Intel HD Graphics 4600"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Celeron E1400",
+        "socket": "LGA775",
+        "n_cores": 2,
+        "base_clock_speed": 2.0,
+        "boost_clock_speed": 0.0,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD A10-7700K",
+        "socket": "FM2+",
+        "n_cores": 4,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 3.8,
+        "consumption": 95,
+        "integrated_gpu": "Radeon R7 (on-die)"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-2320",
+        "socket": "LGA1155",
+        "n_cores": 4,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 0.0,
+        "consumption": 95,
+        "integrated_gpu": "Intel HD Graphics 2000"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-3550",
+        "socket": "LGA1155",
+        "n_cores": 4,
+        "base_clock_speed": 3.3,
+        "boost_clock_speed": 0.0,
+        "consumption": 77,
+        "integrated_gpu": "Intel HD Graphics 2500"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-10700K Avengers Collector's Edition",
+        "socket": "LGA1200",
+        "n_cores": 8,
+        "base_clock_speed": 3.8,
+        "boost_clock_speed": 5.1,
+        "consumption": 125,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD A6-7400K",
+        "socket": "FM2+",
+        "n_cores": 2,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 3.9,
+        "consumption": 65,
+        "integrated_gpu": "Radeon R5 (on die)"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E3-1231 V3",
+        "socket": "LGA1150",
+        "n_cores": 4,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 3.8,
+        "consumption": 80,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD A10-7800",
+        "socket": "FM2+",
+        "n_cores": 4,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 3.9,
+        "consumption": 65,
+        "integrated_gpu": "Radeon R7 (on-die)"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-2697 V3",
+        "socket": "LGA2011-3",
+        "n_cores": 14,
+        "base_clock_speed": 2.6,
+        "boost_clock_speed": 3.6,
+        "consumption": 145,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-9100T",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 3.1,
+        "boost_clock_speed": 3.7,
+        "consumption": 35,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-9500T",
+        "socket": "LGA1151",
+        "n_cores": 6,
+        "base_clock_speed": 2.2,
+        "boost_clock_speed": 3.7,
+        "consumption": 35,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E-2288G",
+        "socket": "LGA1151",
+        "n_cores": 8,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 5.0,
+        "consumption": 95,
+        "integrated_gpu": "Intel HD Graphics P630"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 7 PRO 7745",
+        "socket": "AM5",
+        "n_cores": 8,
+        "base_clock_speed": 3.8,
+        "boost_clock_speed": 5.3,
+        "consumption": 65,
+        "integrated_gpu": "Radeon"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Phenom II X4 820",
+        "socket": "AM3",
+        "n_cores": 4,
+        "base_clock_speed": 2.8,
+        "boost_clock_speed": 0.0,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-870",
+        "socket": "LGA1156",
+        "n_cores": 4,
+        "base_clock_speed": 2.93,
+        "boost_clock_speed": 0.0,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-3970X Extreme Edition",
+        "socket": "LGA2011",
+        "n_cores": 6,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 0.0,
+        "consumption": 150,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-750",
+        "socket": "LGA1156",
+        "n_cores": 4,
+        "base_clock_speed": 2.66,
+        "boost_clock_speed": 0.0,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-5775C",
+        "socket": "LGA1150",
+        "n_cores": 4,
+        "base_clock_speed": 3.3,
+        "boost_clock_speed": 3.7,
+        "consumption": 65,
+        "integrated_gpu": "Iris Pro Graphics 6200"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Celeron G3930T",
+        "socket": "LGA1151",
+        "n_cores": 2,
+        "base_clock_speed": 2.7,
+        "boost_clock_speed": 0.0,
+        "consumption": 35,
+        "integrated_gpu": "Intel HD Graphics 610"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-3240",
+        "socket": "LGA1155",
+        "n_cores": 2,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 0.0,
+        "consumption": 55,
+        "integrated_gpu": "Intel HD Graphics 2500"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-4770K",
+        "socket": "LGA1150",
+        "n_cores": 4,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 3.9,
+        "consumption": 84,
+        "integrated_gpu": "Intel HD Graphics 4600"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Pentium Gold G6405",
+        "socket": "LGA1200",
+        "n_cores": 2,
+        "base_clock_speed": 4.1,
+        "boost_clock_speed": 0.0,
+        "consumption": 58,
+        "integrated_gpu": "Intel UHD Graphics 610"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-2310",
+        "socket": "LGA1155",
+        "n_cores": 4,
+        "base_clock_speed": 2.9,
+        "boost_clock_speed": 0.0,
+        "consumption": 95,
+        "integrated_gpu": "Intel HD Graphics 2000"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-6400",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 2.7,
+        "boost_clock_speed": 3.3,
+        "consumption": 65,
+        "integrated_gpu": "Intel HD Graphics 530"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-7600K",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 3.8,
+        "boost_clock_speed": 4.2,
+        "consumption": 91,
+        "integrated_gpu": "Intel HD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-2120T",
+        "socket": "LGA1155",
+        "n_cores": 2,
+        "base_clock_speed": 2.6,
+        "boost_clock_speed": 0.0,
+        "consumption": 35,
+        "integrated_gpu": "Intel HD Graphics 2000"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD FX-6350",
+        "socket": "AM3+",
+        "n_cores": 6,
+        "base_clock_speed": 3.9,
+        "boost_clock_speed": 0.0,
+        "consumption": 125,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-4690K",
+        "socket": "LGA1150",
+        "n_cores": 4,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 3.9,
+        "consumption": 88,
+        "integrated_gpu": "Intel HD Graphics 4600"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E3-1270 V3",
+        "socket": "LGA1150",
+        "n_cores": 4,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 3.9,
+        "consumption": 80,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD A10-6800K",
+        "socket": "FM2",
+        "n_cores": 4,
+        "base_clock_speed": 4.1,
+        "boost_clock_speed": 0.0,
+        "consumption": 100,
+        "integrated_gpu": "Radeon HD 8670D"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD A10-6700",
+        "socket": "FM2",
+        "n_cores": 4,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 0.0,
+        "consumption": 65,
+        "integrated_gpu": "Radeon HD 8670D"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-9500F",
+        "socket": "LGA1151",
+        "n_cores": 6,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 4.4,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core 2 Quad Q9650",
+        "socket": "LGA775",
+        "n_cores": 4,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 0.0,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Pentium G2020",
+        "socket": "LGA1155",
+        "n_cores": 2,
+        "base_clock_speed": 2.9,
+        "boost_clock_speed": 0.0,
+        "consumption": 55,
+        "integrated_gpu": "Intel HD Graphics"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-760",
+        "socket": "LGA1156",
+        "n_cores": 4,
+        "base_clock_speed": 2.8,
+        "boost_clock_speed": 0.0,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-2620 V4",
+        "socket": "LGA2011-3",
+        "n_cores": 8,
+        "base_clock_speed": 2.1,
+        "boost_clock_speed": 3.0,
+        "consumption": 85,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-7980XE",
+        "socket": "LGA2066",
+        "n_cores": 18,
+        "base_clock_speed": 2.6,
+        "boost_clock_speed": 4.4,
+        "consumption": 165,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Celeron G4900",
+        "socket": "LGA1151",
+        "n_cores": 2,
+        "base_clock_speed": 3.1,
+        "boost_clock_speed": 0.0,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 610"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD FX-9370",
+        "socket": "AM3+",
+        "n_cores": 8,
+        "base_clock_speed": 4.4,
+        "boost_clock_speed": 4.7,
+        "consumption": 220,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Phenom II X4 965 Black",
+        "socket": "AM3",
+        "n_cores": 4,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 0.0,
+        "consumption": 125,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Phenom II X6 1100T Black",
+        "socket": "AM3",
+        "n_cores": 6,
+        "base_clock_speed": 3.3,
+        "boost_clock_speed": 0.0,
+        "consumption": 125,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD A8-5600K",
+        "socket": "FM2",
+        "n_cores": 4,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 0.0,
+        "consumption": 100,
+        "integrated_gpu": "Radeon HD 7560D"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-7500",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 3.8,
+        "consumption": 65,
+        "integrated_gpu": "Intel HD Graphics 630"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 3 2200G",
+        "socket": "AM4",
+        "n_cores": 4,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 3.7,
+        "consumption": 65,
+        "integrated_gpu": "Radeon Vega 8"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-950",
+        "socket": "LGA1366",
+        "n_cores": 4,
+        "base_clock_speed": 3.06,
+        "boost_clock_speed": 0.0,
+        "consumption": 130,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core 2 Extreme QX9770",
+        "socket": "LGA775",
+        "n_cores": 4,
+        "base_clock_speed": 3.2,
+        "boost_clock_speed": 0.0,
+        "consumption": 136,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Pentium G645",
+        "socket": "LGA1155",
+        "n_cores": 2,
+        "base_clock_speed": 2.9,
+        "boost_clock_speed": 0.0,
+        "consumption": 65,
+        "integrated_gpu": "Intel HD Graphics 2500"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E3-1230 V2",
+        "socket": "LGA1155",
+        "n_cores": 4,
+        "base_clock_speed": 3.3,
+        "boost_clock_speed": 0.0,
+        "consumption": 69,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Celeron G3930",
+        "socket": "LGA1151",
+        "n_cores": 2,
+        "base_clock_speed": 2.9,
+        "boost_clock_speed": 0.0,
+        "consumption": 51,
+        "integrated_gpu": "Intel HD Graphics 610"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-1620 V3",
+        "socket": "LGA2011-3",
+        "n_cores": 4,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 3.6,
+        "consumption": 140,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-4690",
+        "socket": "LGA1150",
+        "n_cores": 4,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 3.9,
+        "consumption": 84,
+        "integrated_gpu": "Intel HD Graphics 4600"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Athlon X4 860K",
+        "socket": "FM2+",
+        "n_cores": 4,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 4.0,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-9800X",
+        "socket": "LGA2066",
+        "n_cores": 8,
+        "base_clock_speed": 3.8,
+        "boost_clock_speed": 4.5,
+        "consumption": 165,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core 2 Duo E7500",
+        "socket": "LGA775",
+        "n_cores": 2,
+        "base_clock_speed": 2.93,
+        "boost_clock_speed": 0.0,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-990X Extreme Edition",
+        "socket": "LGA1366",
+        "n_cores": 6,
+        "base_clock_speed": 3.467,
+        "boost_clock_speed": 0.0,
+        "consumption": 130,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-4590S",
+        "socket": "LGA1150",
+        "n_cores": 4,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 3.7,
+        "consumption": 65,
+        "integrated_gpu": "Intel HD Graphics 4000"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-9400",
+        "socket": "LGA1151",
+        "n_cores": 6,
+        "base_clock_speed": 2.9,
+        "boost_clock_speed": 4.1,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-10300",
+        "socket": "LGA1200",
+        "n_cores": 4,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 4.4,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E3-1230 V3",
+        "socket": "LGA1150",
+        "n_cores": 4,
+        "base_clock_speed": 3.3,
+        "boost_clock_speed": 3.7,
+        "consumption": 80,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD A6-9500E",
+        "socket": "AM4",
+        "n_cores": 2,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 3.4,
+        "consumption": 35,
+        "integrated_gpu": "Radeon R5 (on die)"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Pentium G2120",
+        "socket": "LGA1155",
+        "n_cores": 2,
+        "base_clock_speed": 3.1,
+        "boost_clock_speed": 0.0,
+        "consumption": 55,
+        "integrated_gpu": "Intel HD Graphics"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-9900X",
+        "socket": "LGA2066",
+        "n_cores": 10,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 4.4,
+        "consumption": 165,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-9350KF",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 4.0,
+        "boost_clock_speed": 4.6,
+        "consumption": 91,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-7100",
+        "socket": "LGA1151",
+        "n_cores": 2,
+        "base_clock_speed": 3.9,
+        "boost_clock_speed": 0.0,
+        "consumption": 51,
+        "integrated_gpu": "Intel HD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-9960X",
+        "socket": "LGA2066",
+        "n_cores": 16,
+        "base_clock_speed": 3.1,
+        "boost_clock_speed": 4.4,
+        "consumption": 165,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E3-1240L V5",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 2.1,
+        "boost_clock_speed": 3.2,
+        "consumption": 25,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-960",
+        "socket": "LGA1366",
+        "n_cores": 4,
+        "base_clock_speed": 3.2,
+        "boost_clock_speed": 0.0,
+        "consumption": 130,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-6100",
+        "socket": "LGA1151",
+        "n_cores": 2,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 0.0,
+        "consumption": 51,
+        "integrated_gpu": "Intel HD Graphics 530"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Pentium G3258",
+        "socket": "LGA1150",
+        "n_cores": 2,
+        "base_clock_speed": 3.2,
+        "boost_clock_speed": 0.0,
+        "consumption": 53,
+        "integrated_gpu": "Intel HD Graphics"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-2660 V4",
+        "socket": "LGA2011-3",
+        "n_cores": 14,
+        "base_clock_speed": 2.0,
+        "boost_clock_speed": 3.2,
+        "consumption": 105,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Athlon II X4 630",
+        "socket": "AM3",
+        "n_cores": 4,
+        "base_clock_speed": 2.8,
+        "boost_clock_speed": 0.0,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-6500T",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 2.5,
+        "boost_clock_speed": 3.1,
+        "consumption": 35,
+        "integrated_gpu": "Intel HD Graphics 530"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-1650 V2",
+        "socket": "LGA2011",
+        "n_cores": 6,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 3.9,
+        "consumption": 130,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD FX-8320E",
+        "socket": "AM3+",
+        "n_cores": 8,
+        "base_clock_speed": 3.2,
+        "boost_clock_speed": 4.0,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-1660 V3",
+        "socket": "LGA2011-3",
+        "n_cores": 8,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 3.5,
+        "consumption": 140,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-2630",
+        "socket": "LGA2011",
+        "n_cores": 6,
+        "base_clock_speed": 2.3,
+        "boost_clock_speed": 0.0,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-3960X Extreme Edition",
+        "socket": "LGA2011",
+        "n_cores": 6,
+        "base_clock_speed": 3.3,
+        "boost_clock_speed": 0.0,
+        "consumption": 130,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-2650 V2",
+        "socket": "LGA2011",
+        "n_cores": 8,
+        "base_clock_speed": 2.6,
+        "boost_clock_speed": 3.4,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-2690 V3",
+        "socket": "LGA2011-3",
+        "n_cores": 12,
+        "base_clock_speed": 2.6,
+        "boost_clock_speed": 3.5,
+        "consumption": 135,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-6100T",
+        "socket": "LGA1151",
+        "n_cores": 2,
+        "base_clock_speed": 3.2,
+        "boost_clock_speed": 0.0,
+        "consumption": 35,
+        "integrated_gpu": "Intel HD Graphics 530"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-9820X",
+        "socket": "LGA2066",
+        "n_cores": 10,
+        "base_clock_speed": 3.3,
+        "boost_clock_speed": 4.1,
+        "consumption": 165,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD A10-7890K",
+        "socket": "FM2+",
+        "n_cores": 4,
+        "base_clock_speed": 4.1,
+        "boost_clock_speed": 4.3,
+        "consumption": 95,
+        "integrated_gpu": "Radeon R7 (on-die)"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-9920X",
+        "socket": "LGA2066",
+        "n_cores": 12,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 4.4,
+        "consumption": 165,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Athlon X4 950",
+        "socket": "AM4",
+        "n_cores": 4,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 3.8,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-1620 V4",
+        "socket": "LGA2011-3",
+        "n_cores": 4,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 3.8,
+        "consumption": 140,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Pentium E5400",
+        "socket": "LGA775",
+        "n_cores": 2,
+        "base_clock_speed": 2.7,
+        "boost_clock_speed": 0.0,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-2300",
+        "socket": "LGA1155",
+        "n_cores": 4,
+        "base_clock_speed": 2.8,
+        "boost_clock_speed": 0.0,
+        "consumption": 95,
+        "integrated_gpu": "Intel HD Graphics 2000"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD A10-5800K",
+        "socket": "FM2",
+        "n_cores": 4,
+        "base_clock_speed": 3.8,
+        "boost_clock_speed": 0.0,
+        "consumption": 100,
+        "integrated_gpu": "Radeon HD 7660D"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD FX-9590",
+        "socket": "AM3+",
+        "n_cores": 8,
+        "base_clock_speed": 4.7,
+        "boost_clock_speed": 5.0,
+        "consumption": 220,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Celeron 440",
+        "socket": "LGA775",
+        "n_cores": 1,
+        "base_clock_speed": 2.0,
+        "boost_clock_speed": 0.0,
+        "consumption": 35,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core 2 Quad Q9400",
+        "socket": "LGA775",
+        "n_cores": 4,
+        "base_clock_speed": 2.66,
+        "boost_clock_speed": 0.0,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-4570S",
+        "socket": "LGA1150",
+        "n_cores": 4,
+        "base_clock_speed": 2.9,
+        "boost_clock_speed": 0.0,
+        "consumption": 65,
+        "integrated_gpu": "Intel HD Graphics 4600"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Pentium G3220",
+        "socket": "LGA1150",
+        "n_cores": 2,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 0.0,
+        "consumption": 54,
+        "integrated_gpu": "Intel HD Graphics"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-2690 V2",
+        "socket": "LGA2011",
+        "n_cores": 10,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 3.6,
+        "consumption": 130,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-6500T",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 2.5,
+        "boost_clock_speed": 3.1,
+        "consumption": 35,
+        "integrated_gpu": "Intel HD Graphics 530"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-10100T",
+        "socket": "LGA1200",
+        "n_cores": 4,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 3.8,
+        "consumption": 35,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-2660 V3",
+        "socket": "LGA2011-3",
+        "n_cores": 10,
+        "base_clock_speed": 2.6,
+        "boost_clock_speed": 3.3,
+        "consumption": 105,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Celeron 430",
+        "socket": "LGA775",
+        "n_cores": 1,
+        "base_clock_speed": 1.8,
+        "boost_clock_speed": 0.0,
+        "consumption": 35,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD 5150",
+        "socket": "AM1",
+        "n_cores": 4,
+        "base_clock_speed": 1.6,
+        "boost_clock_speed": 0.0,
+        "consumption": 25,
+        "integrated_gpu": "Radeon HD 8400"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD A4-6300B",
+        "socket": "FM2",
+        "n_cores": 2,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 3.9,
+        "consumption": 65,
+        "integrated_gpu": "Radeon HD 8370D"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD A12-9800E",
+        "socket": "AM4",
+        "n_cores": 4,
+        "base_clock_speed": 3.1,
+        "boost_clock_speed": 3.8,
+        "consumption": 35,
+        "integrated_gpu": "Radeon R7 (on-die)"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Athlon X2 370K",
+        "socket": "FM2",
+        "n_cores": 2,
+        "base_clock_speed": 4.2,
+        "boost_clock_speed": 0.0,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-7400",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 3.5,
+        "consumption": 65,
+        "integrated_gpu": "Intel HD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-7960X",
+        "socket": "LGA2066",
+        "n_cores": 16,
+        "base_clock_speed": 2.8,
+        "boost_clock_speed": 4.4,
+        "consumption": 165,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-8100",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 0.0,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Celeron G440",
+        "socket": "LGA1155",
+        "n_cores": 1,
+        "base_clock_speed": 1.6,
+        "boost_clock_speed": 0.0,
+        "consumption": 35,
+        "integrated_gpu": "Intel HD Graphics"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Ryzen 3 1200 (12nm)",
+        "socket": "AM4",
+        "n_cores": 4,
+        "base_clock_speed": 3.1,
+        "boost_clock_speed": 3.4,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD FX-8370",
+        "socket": "AM3+",
+        "n_cores": 8,
+        "base_clock_speed": 4.0,
+        "boost_clock_speed": 4.3,
+        "consumption": 125,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core 2 Extreme QX9775",
+        "socket": "LGA771",
+        "n_cores": 4,
+        "base_clock_speed": 3.2,
+        "boost_clock_speed": 0.0,
+        "consumption": 150,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core 2 Quad Q9550",
+        "socket": "LGA775",
+        "n_cores": 4,
+        "base_clock_speed": 2.83,
+        "boost_clock_speed": 0.0,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-4340",
+        "socket": "LGA1150",
+        "n_cores": 2,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 0.0,
+        "consumption": 54,
+        "integrated_gpu": "Intel HD Graphics 4600"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-8500",
+        "socket": "LGA1151",
+        "n_cores": 6,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 4.1,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-7800X",
+        "socket": "LGA2066",
+        "n_cores": 6,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 4.0,
+        "consumption": 140,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Phenom II X4 980 Black",
+        "socket": "AM3",
+        "n_cores": 4,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 0.0,
+        "consumption": 125,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD A8-5500",
+        "socket": "FM2",
+        "n_cores": 4,
+        "base_clock_speed": 3.2,
+        "boost_clock_speed": 0.0,
+        "consumption": 65,
+        "integrated_gpu": "Radeon HD 7560D"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-6600",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 3.3,
+        "boost_clock_speed": 3.9,
+        "consumption": 65,
+        "integrated_gpu": "Intel HD Graphics 530"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-4460S",
+        "socket": "LGA1150",
+        "n_cores": 4,
+        "base_clock_speed": 2.9,
+        "boost_clock_speed": 3.4,
+        "consumption": 65,
+        "integrated_gpu": "Intel HD Graphics 4000"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-8500",
+        "socket": "LGA1151",
+        "n_cores": 6,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 4.1,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Pentium Gold G6600",
+        "socket": "LGA1200",
+        "n_cores": 2,
+        "base_clock_speed": 4.2,
+        "boost_clock_speed": 0.0,
+        "consumption": 58,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD A10-7870K",
+        "socket": "FM2+",
+        "n_cores": 4,
+        "base_clock_speed": 3.9,
+        "boost_clock_speed": 4.1,
+        "consumption": 95,
+        "integrated_gpu": "Radeon R7 (on-die)"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD FX-8150",
+        "socket": "AM3+",
+        "n_cores": 8,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 0.0,
+        "consumption": 125,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD FX-4300",
+        "socket": "AM3+",
+        "n_cores": 4,
+        "base_clock_speed": 3.8,
+        "boost_clock_speed": 0.0,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Pentium G4600",
+        "socket": "LGA1151",
+        "n_cores": 2,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 0.0,
+        "consumption": 51,
+        "integrated_gpu": "Intel HD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-7640X",
+        "socket": "LGA2066",
+        "n_cores": 4,
+        "base_clock_speed": 4.0,
+        "boost_clock_speed": 4.2,
+        "consumption": 112,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-9900",
+        "socket": "LGA1151",
+        "n_cores": 8,
+        "base_clock_speed": 3.1,
+        "boost_clock_speed": 5.0,
+        "consumption": 65,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E-2278G",
+        "socket": "LGA1151",
+        "n_cores": 8,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 5.0,
+        "consumption": 80,
+        "integrated_gpu": "Intel HD Graphics P630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-4590T",
+        "socket": "LGA1150",
+        "n_cores": 4,
+        "base_clock_speed": 2.0,
+        "boost_clock_speed": 0.0,
+        "consumption": 35,
+        "integrated_gpu": "Intel HD Graphics 4000"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-10850K",
+        "socket": "LGA1200",
+        "n_cores": 10,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 5.2,
+        "consumption": 125,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Pentium Gold G5420",
+        "socket": "LGA1151",
+        "n_cores": 2,
+        "base_clock_speed": 3.8,
+        "boost_clock_speed": 0.0,
+        "consumption": 54,
+        "integrated_gpu": "Intel UHD Graphics 610"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Celeron G4930",
+        "socket": "LGA1151",
+        "n_cores": 2,
+        "base_clock_speed": 3.2,
+        "boost_clock_speed": 0.0,
+        "consumption": 54,
+        "integrated_gpu": "Intel UHD Graphics 610"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-2400S",
+        "socket": "LGA1155",
+        "n_cores": 4,
+        "base_clock_speed": 2.5,
+        "boost_clock_speed": 0.0,
+        "consumption": 65,
+        "integrated_gpu": "Intel HD Graphics 2000"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-5930K",
+        "socket": "LGA2011-3",
+        "n_cores": 6,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 3.7,
+        "consumption": 140,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-2650 V3",
+        "socket": "LGA2011-3",
+        "n_cores": 10,
+        "base_clock_speed": 2.3,
+        "boost_clock_speed": 3.0,
+        "consumption": 105,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Phenom II X4 945",
+        "socket": "AM3",
+        "n_cores": 4,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 0.0,
+        "consumption": 125,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-2667 V2",
+        "socket": "LGA2011",
+        "n_cores": 8,
+        "base_clock_speed": 3.3,
+        "boost_clock_speed": 4.0,
+        "consumption": 130,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-2630L V3",
+        "socket": "LGA2011-3",
+        "n_cores": 8,
+        "base_clock_speed": 1.8,
+        "boost_clock_speed": 2.9,
+        "consumption": 55,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-5675C",
+        "socket": "LGA1150",
+        "n_cores": 4,
+        "base_clock_speed": 3.1,
+        "boost_clock_speed": 3.6,
+        "consumption": 65,
+        "integrated_gpu": "Iris Pro Graphics 6200"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E3-1245 V5",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 3.9,
+        "consumption": 80,
+        "integrated_gpu": "Intel HD Graphics P530"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Opteron 6378",
+        "socket": "G34",
+        "n_cores": 16,
+        "base_clock_speed": 2.4,
+        "boost_clock_speed": 3.3,
+        "consumption": 115,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-8600T",
+        "socket": "LGA1151",
+        "n_cores": 6,
+        "base_clock_speed": 2.3,
+        "boost_clock_speed": 3.7,
+        "consumption": 35,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Pentium G3420",
+        "socket": "LGA1150",
+        "n_cores": 2,
+        "base_clock_speed": 3.2,
+        "boost_clock_speed": 0.0,
+        "consumption": 54,
+        "integrated_gpu": "Intel HD Graphics"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Athlon II X4 640",
+        "socket": "AM3",
+        "n_cores": 4,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 0.0,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-2630 V2",
+        "socket": "LGA2011",
+        "n_cores": 6,
+        "base_clock_speed": 2.6,
+        "boost_clock_speed": 3.1,
+        "consumption": 80,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-4130T",
+        "socket": "LGA1150",
+        "n_cores": 2,
+        "base_clock_speed": 2.9,
+        "boost_clock_speed": 0.0,
+        "consumption": 35,
+        "integrated_gpu": "Intel HD Graphics 4400"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-2687W V2",
+        "socket": "LGA2011",
+        "n_cores": 8,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 4.0,
+        "consumption": 150,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD A8-7650K",
+        "socket": "FM2+",
+        "n_cores": 4,
+        "base_clock_speed": 3.3,
+        "boost_clock_speed": 3.7,
+        "consumption": 95,
+        "integrated_gpu": "Radeon R7 (on-die)"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD A10-7860k",
+        "socket": "FM2+",
+        "n_cores": 4,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 4.0,
+        "consumption": 65,
+        "integrated_gpu": "Radeon R7 (on-die)"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-3570S",
+        "socket": "LGA1155",
+        "n_cores": 4,
+        "base_clock_speed": 3.1,
+        "boost_clock_speed": 3.8,
+        "consumption": 65,
+        "integrated_gpu": "Intel HD Graphics 2500"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-9700T",
+        "socket": "LGA1151",
+        "n_cores": 8,
+        "base_clock_speed": 2.0,
+        "boost_clock_speed": 4.3,
+        "consumption": 35,
+        "integrated_gpu": "Intel HD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-9600K",
+        "socket": "LGA1151",
+        "n_cores": 6,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 4.6,
+        "consumption": 95,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E3-1265L V3",
+        "socket": "LGA1150",
+        "n_cores": 4,
+        "base_clock_speed": 2.5,
+        "boost_clock_speed": 3.7,
+        "consumption": 45,
+        "integrated_gpu": "Intel HD Graphics"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Pentium E5300",
+        "socket": "LGA775",
+        "n_cores": 2,
+        "base_clock_speed": 2.6,
+        "boost_clock_speed": 0.0,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-6098P",
+        "socket": "LGA1151",
+        "n_cores": 2,
+        "base_clock_speed": 3.6,
+        "boost_clock_speed": 0.0,
+        "consumption": 54,
+        "integrated_gpu": "Intel HD Graphics 510"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-4690K",
+        "socket": "LGA1150",
+        "n_cores": 4,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 3.9,
+        "consumption": 88,
+        "integrated_gpu": "Intel HD Graphics 4600"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core 2 Duo E8600",
+        "socket": "LGA775",
+        "n_cores": 2,
+        "base_clock_speed": 3.33,
+        "boost_clock_speed": 0.0,
+        "consumption": 65,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E3-1240 V3",
+        "socket": "LGA1150",
+        "n_cores": 4,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 3.8,
+        "consumption": 80,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E5-1650 V3",
+        "socket": "LGA2011-3",
+        "n_cores": 6,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 3.8,
+        "consumption": 140,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i5-10600K",
+        "socket": "LGA1200",
+        "n_cores": 6,
+        "base_clock_speed": 4.1,
+        "boost_clock_speed": 4.8,
+        "consumption": 125,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Athlon II X4 635",
+        "socket": "AM3",
+        "n_cores": 4,
+        "base_clock_speed": 2.9,
+        "boost_clock_speed": 0.0,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Athlon II X4 645",
+        "socket": "AM3",
+        "n_cores": 4,
+        "base_clock_speed": 3.1,
+        "boost_clock_speed": 0.0,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD A6-9500",
+        "socket": "AM4",
+        "n_cores": 2,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 3.8,
+        "consumption": 65,
+        "integrated_gpu": "Radeon R5 (on die)"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i9-9960X",
+        "socket": "LGA2066",
+        "n_cores": 16,
+        "base_clock_speed": 3.1,
+        "boost_clock_speed": 4.4,
+        "consumption": 165,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Phenom II X6 1055T",
+        "socket": "AM3",
+        "n_cores": 6,
+        "base_clock_speed": 2.8,
+        "boost_clock_speed": 0.0,
+        "consumption": 125,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD FX-8120",
+        "socket": "AM3+",
+        "n_cores": 8,
+        "base_clock_speed": 3.1,
+        "boost_clock_speed": 0.0,
+        "consumption": 125,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD A8-3870K",
+        "socket": "FM1",
+        "n_cores": 4,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 0.0,
+        "consumption": 100,
+        "integrated_gpu": "Radeon HD 6550D"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD A12-9800",
+        "socket": "AM4",
+        "n_cores": 4,
+        "base_clock_speed": 3.8,
+        "boost_clock_speed": 4.2,
+        "consumption": 65,
+        "integrated_gpu": "Radeon R7 (on-die)"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Pentium Gold G5400T",
+        "socket": "LGA1151",
+        "n_cores": 2,
+        "base_clock_speed": 3.1,
+        "boost_clock_speed": 0.0,
+        "consumption": 35,
+        "integrated_gpu": "Intel UHD Graphics 610"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-9300",
+        "socket": "LGA1151",
+        "n_cores": 4,
+        "base_clock_speed": 3.7,
+        "boost_clock_speed": 4.3,
+        "consumption": 62,
+        "integrated_gpu": "Intel UHD Graphics 630"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Athlon 3000G (14nm)",
+        "socket": "AM4",
+        "n_cores": 2,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 0.0,
+        "consumption": 35,
+        "integrated_gpu": "Radeon Vega 3"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-2100T",
+        "socket": "LGA1155",
+        "n_cores": 2,
+        "base_clock_speed": 2.5,
+        "boost_clock_speed": 0.0,
+        "consumption": 35,
+        "integrated_gpu": "Intel HD Graphics 2000"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-980",
+        "socket": "LGA1366",
+        "n_cores": 6,
+        "base_clock_speed": 3.333,
+        "boost_clock_speed": 0.0,
+        "consumption": 130,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD A10-5800K",
+        "socket": "FM2",
+        "n_cores": 4,
+        "base_clock_speed": 3.8,
+        "boost_clock_speed": 0.0,
+        "consumption": 100,
+        "integrated_gpu": "Radeon HD 7660D"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i7-930",
+        "socket": "LGA1366",
+        "n_cores": 4,
+        "base_clock_speed": 2.8,
+        "boost_clock_speed": 0.0,
+        "consumption": 130,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD A10-9700E",
+        "socket": "AM4",
+        "n_cores": 4,
+        "base_clock_speed": 3.0,
+        "boost_clock_speed": 3.5,
+        "consumption": 35,
+        "integrated_gpu": "Radeon R7 (on-die)"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Celeron 430",
+        "socket": "LGA775",
+        "n_cores": 1,
+        "base_clock_speed": 1.8,
+        "boost_clock_speed": 0.0,
+        "consumption": 35,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core 2 Quad Q9300",
+        "socket": "LGA775",
+        "n_cores": 4,
+        "base_clock_speed": 2.5,
+        "boost_clock_speed": 0.0,
+        "consumption": 95,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Phenom II X2 565 Black",
+        "socket": "AM3",
+        "n_cores": 2,
+        "base_clock_speed": 3.4,
+        "boost_clock_speed": 0.0,
+        "consumption": 80,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "AMD",
+        "model": "AMD Phenom II X4 955",
+        "socket": "AM3",
+        "n_cores": 4,
+        "base_clock_speed": 3.2,
+        "boost_clock_speed": 0.0,
+        "consumption": 125,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-3250",
+        "socket": "LGA1155",
+        "n_cores": 2,
+        "base_clock_speed": 3.5,
+        "boost_clock_speed": 0.0,
+        "consumption": 55,
+        "integrated_gpu": "Intel HD Graphics 2500"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Xeon E3-1220 V3",
+        "socket": "LGA1150",
+        "n_cores": 4,
+        "base_clock_speed": 3.1,
+        "boost_clock_speed": 3.5,
+        "consumption": 80,
+        "integrated_gpu": "None"
+    },
+    {
+        "manufacturer": "Intel",
+        "model": "Intel Core i3-7350K",
+        "socket": "LGA1151",
+        "n_cores": 2,
+        "base_clock_speed": 4.2,
+        "boost_clock_speed": 0.0,
+        "consumption": 60,
+        "integrated_gpu": "Intel HD Graphics 630"
+    }
+]
