@@ -1,9 +1,3 @@
-Excelente ideia! Um bom arquivo `README.md` é a porta de entrada para qualquer projeto, fornecendo uma visão geral e instruções claras.
-
-Vamos criar um `README.md` abrangente para o seu repositório `meron-app`, incorporando todos os detalhes que discutimos:
-
----
-
 # 🚀 Meron App
 
 Bem-vindo ao repositório `meron-app`! Este é um projeto full-stack que combina um backend Django REST Framework (com scraper, Celery e Redis) e um frontend React. Tudo é orquestrado e containerizado usando Docker Compose para facilitar o desenvolvimento e a implantação.
