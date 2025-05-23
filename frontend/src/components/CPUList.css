@@ -1,0 +1,198 @@
+.cpu-list-container {
+    text-align: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .cpu-list-header {
+    background-color: #313244; /* Surface0 */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    color: #CDD6F4; /* Text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cpu-list-header h1 {
+    margin: 0 0 20px 0;
+    font-size: 2.5em;
+    color: #89B4FA; /* Blue */
+  }
+  
+  /* Estilos da Barra de Busca */
+  .search-bar {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    max-width: 500px;
+    padding: 12px 20px;
+    border: 1px solid #585B70; /* Surface2 - Borda do input */
+    background-color: #45475A; /* Surface1 - Fundo do input */
+    color: #CDD6F4; /* Text - Cor do texto digitado */
+    border-radius: 25px;
+    font-size: 1.1em;
+    outline: none;
+    transition: all 0.3s ease;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+  }
+  
+  .search-bar input::placeholder { /* Cor do placeholder */
+    color: #A6ADC8; /* Subtext0 */
+  }
+  
+  .search-bar input:focus {
+    border-color: #89B4FA; /* Blue - Borda no foco */
+    box-shadow: 0 0 8px rgba(137, 180, 250, 0.6); /* Sombra de foco */
+  }
+  
+  /* Estilos da Lista de CPUs */
+  .cpu-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+  }
+  
+  /* Estilos de Cada Item da CPU (Card) */
+  .cpu-item-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .cpu-item {
+    background-color: #45475A; /* Surface1 - Fundo do cartão */
+    border: 1px solid #585B70; /* Surface2 - Borda do cartão */
+    border-radius: 12px;
+    padding: 25px;
+    text-align: left;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra do cartão */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    color: #CDD6F4; /* Text - Cor do texto dentro do cartão */
+  }
+  
+  .cpu-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Sombra mais escura no hover */
+  }
+  
+  .cpu-item h2 {
+    color: #89B4FA; /* Blue - Título do cartão */
+    font-size: 1.6em;
+    margin-top: 0;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #74C7CE; /* Sapphire - Linha de destaque */
+    padding-bottom: 10px;
+  }
+  
+  .cpu-item p {
+    margin: 8px 0;
+    font-size: 0.95em;
+    line-height: 1.4;
+  }
+  
+  .cpu-item p strong {
+    color: #BAC2DE; /* Subtext1 - Nomes dos campos */
+  }
+  
+  /* Estilos dos Controles de Paginação */
+  .pagination-controls {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .pagination-controls button {
+    background-color: #89B4FA; /* Blue - Fundo do botão */
+    color: #1E1E2E; /* Base - Texto do botão */
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .pagination-controls button:hover:not(:disabled) {
+    background-color: #74C7CE; /* Sapphire - Hover do botão */
+    transform: translateY(-2px);
+  }
+  
+  .pagination-controls button:disabled {
+    background-color: #585B70; /* Surface2 - Cor do botão desabilitado */
+    color: #A6ADC8; /* Subtext0 - Texto do botão desabilitado */
+    cursor: not-allowed;
+    opacity: 0.7;
+    box-shadow: none;
+  }
+  
+  /* Mensagem de Erro */
+  .error-message {
+    background-color: #EBA0AC; /* Maroon */
+    color: #1E1E2E; /* Base - Texto para contraste */
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .error-message p {
+    margin: 0;
+    font-size: 1.1em;
+    color: #1E1E2E;
+  }
+  
+  /* Melhorias de responsividade */
+  @media (max-width: 768px) {
+    .cpu-list-header h1 {
+      font-size: 2em;
+    }
+    .search-bar input {
+      width: 90%;
+    }
+    .cpu-list {
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+    .cpu-item {
+      padding: 20px;
+    }
+    .cpu-item h2 {
+      font-size: 1.4em;
+    }
+    .pagination-controls button {
+      padding: 10px 20px;
+      font-size: 1em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .cpu-list-container {
+      padding: 15px;
+    }
+    .cpu-list-header h1 {
+      font-size: 1.8em;
+    }
+    .cpu-list {
+      grid-template-columns: 1fr;
+    }
+    .pagination-controls {
+      flex-direction: column;
+      gap: 10px;
+    }
+    .pagination-controls button {
+      width: 80%;
+      margin: 0 auto;
+    }
+  }

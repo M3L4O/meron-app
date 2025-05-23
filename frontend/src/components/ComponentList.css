@@ -1,0 +1,273 @@
+/* Estilos genéricos para ComponentList (reutilizados do CPUList.css) */
+
+.component-list-container { /* Renomeado */
+  text-align: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.component-list-header { /* Renomeado */
+  background-color: #313244; /* Surface0 */
+  padding: 25px 20px; /* Mais padding */
+  border-radius: 12px; /* Mais arredondamento */
+  margin-bottom: 40px; /* Mais espaço abaixo do navbar */
+  color: #CDD6F4; /* Text */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra mais suave */
+}
+
+.component-list-header h1 { /* Renomeado */
+  margin: 0 0 25px 0; /* Mais espaço abaixo do h1 */
+  font-size: 2.8em; /* Título maior */
+  font-weight: 600;
+  color: #89B4FA; /* Blue (cor padrão, pode ser sobrescrita por CSS específico) */
+}
+
+/* Estilos da Barra de Busca (reutilizado) */
+.search-bar {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar input {
+  width: 100%;
+  max-width: 500px;
+  padding: 15px 25px; /* Mais padding */
+  border: 1px solid #585B70;
+  background-color: #45475A;
+  color: #CDD6F4;
+  border-radius: 30px; /* Mais arredondamento */
+  font-size: 1.15em; /* Texto maior */
+  outline: none;
+  transition: all 0.3s ease;
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.4); /* Sombra interna mais escura */
+}
+
+.search-bar input::placeholder {
+  color: #A6ADC8;
+}
+
+.search-bar input:focus {
+  border-color: #89B4FA; /* Blue (cor padrão, pode ser sobrescrita por CSS específico) */
+  box-shadow: 0 0 10px rgba(137, 180, 250, 0.8); /* Sombra de foco mais intensa */
+}
+
+/* Estilos da Grid de Componentes */
+.component-list-grid { /* Nova classe para a grid */
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px; /* Mais espaço entre os cards */
+}
+
+/* Estilos de Cada Item do Componente (Card Genérico) */
+.component-item-link { /* Nova classe para o link do item */
+  text-decoration: none;
+  color: inherit;
+}
+
+.component-item-card { /* Nova classe para o card */
+  background-color: #45475A; /* Surface1 */
+  border: 1px solid #585B70; /* Surface2 */
+  border-radius: 16px; /* Mais arredondamento */
+  padding: 30px; /* Mais padding interno */
+  text-align: left;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Sombra mais profunda */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto;
+  color: #CDD6F4;
+}
+
+.component-item-card:hover {
+  transform: translateY(-8px); /* Elevação maior */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5); /* Sombra mais forte no hover */
+}
+
+/* Estilos para o grupo de título e ícone dentro dos cards */
+.card-title-group {
+  display: flex; /* Torna o container flexível */
+  align-items: center; /* Alinha os itens verticalmente ao centro */
+  margin-bottom: 15px;
+  /* Borda e padding-bottom removidos daqui e controlados por css específicos de card se necessário */
+  /* border-bottom: 2px solid; */
+  /* padding-bottom: 10px; */
+}
+
+/* Estilos genéricos para os ícones dentro dos cards */
+.component-icon {
+  font-size: 2.5em; /* Tamanho do ícone */
+  margin-right: 15px; /* Mais espaçamento à direita do ícone */
+  color: #A6ADC8; /* Cor padrão para os ícones (Subtext0) */
+  flex-shrink: 0; /* Impede que o ícone encolha se o espaço for limitado */
+}
+
+/* Ajuste o h2 dentro do card-title-group */
+.card-title-group h2 {
+    margin: 0; /* Remove margens extras do h2 */
+    border-bottom: none; /* Remove a borda de baixo do h2, pois ela está no card-title-group */
+    padding-bottom: 0; /* Remove o padding do h2 */
+    line-height: 1.2; /* Ajusta a altura da linha do título */
+    flex-grow: 1; /* Permite que o título ocupe o espaço restante */
+}
+
+.component-item-card p {
+  margin: 10px 0; /* Mais espaço */
+  font-size: 1em; /* Ajuste se necessário */
+  line-height: 1.5;
+}
+
+.component-item-card p strong {
+  color: #BAC2DE;
+}
+
+/* Estilos dos Controles de Paginação */
+.pagination-controls {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap; /* Permite que os itens quebrem linha em telas menores */
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Espaçamento entre os botões da paginação */
+}
+
+.pagination-controls button {
+  background-color: #89B4FA; /* Blue (cor padrão) */
+  color: #1E1E2E; /* Base */
+  border: none;
+  padding: 10px 15px; /* Tamanho mais compacto */
+  border-radius: 8px; /* Menos arredondado para números de página */
+  font-size: 1.0em; /* Fonte um pouco menor */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Sombra mais leve */
+  display: flex;
+  align-items: center;
+  gap: 5px; /* Espaço entre ícone e texto do botão */
+  min-width: 40px; /* Largura mínima para botões de número */
+  justify-content: center; /* Centraliza conteúdo dentro do botão */
+}
+
+.pagination-controls button:hover:not(:disabled) {
+  background-color: #74C7CE; /* Sapphire */
+  transform: translateY(-2px); /* Elevação menor */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25); /* Sombra mais forte no hover */
+}
+
+.pagination-controls button:disabled {
+  background-color: #585B70;
+  color: #A6ADC8;
+  cursor: not-allowed;
+  opacity: 0.7;
+  box-shadow: none;
+}
+
+/* Estilo para o ícone dentro dos botões de paginação */
+.pagination-icon {
+  font-size: 1.1em; /* Tamanho do ícone */
+}
+
+/* Estilo para os botões de número de página */
+.pagination-controls .page-number-button {
+  background-color: #313244; /* Surface0 - Fundo para os números de página */
+  color: #CDD6F4; /* Text - Cor do texto do número */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px 15px; /* Padding similar aos botões de seta */
+  border-radius: 8px;
+}
+
+.pagination-controls .page-number-button:hover:not(.active) {
+  background-color: #45475A; /* Surface1 - Hover para números de página */
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.pagination-controls .page-number-button.active {
+  background-color: #89B4FA; /* Blue - Cor para a página ativa */
+  color: #1E1E2E; /* Base - Texto da página ativa */
+  font-weight: bold;
+  cursor: default; /* Não muda o cursor na página ativa */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: none; /* Sem elevação para a página ativa */
+  pointer-events: none; /* Desabilita clique na página ativa */
+}
+
+/* Estilo para as ellipses "..." */
+.pagination-ellipsis {
+  color: #A6ADC8; /* Subtext0 */
+  font-size: 1.1em;
+  padding: 0 5px; /* Pequeno padding */
+}
+
+/* Mensagem de Erro */
+.error-message {
+  background-color: #EBA0AC;
+  color: #1E1E2E;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.error-message p {
+  margin: 0;
+  font-size: 1.1em;
+  color: #1E1E2E;
+}
+
+/* Melhorias de responsividade */
+@media (max-width: 768px) {
+  .component-list-header h1 {
+    font-size: 2em;
+  }
+  .search-bar input {
+    width: 90%;
+  }
+  .component-list-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+  .component-item-card {
+    padding: 20px;
+  }
+  .component-item-card h2 {
+    font-size: 1.4em;
+  }
+  .pagination-controls button {
+    padding: 10px 20px;
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  .component-list-container {
+    padding: 15px;
+  }
+  .component-list-header h1 {
+    font-size: 1.8em;
+  }
+  .component-list-grid {
+    grid-template-columns: 1fr;
+  }
+  .pagination-controls {
+    flex-direction: row; /* Mantém como linha em telas muito pequenas para os números */
+    flex-wrap: wrap; /* Garante que os números quebrem linha */
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .pagination-controls button,
+  .pagination-controls .page-number-button {
+    padding: 8px 12px;
+    font-size: 0.9em;
+    min-width: 35px;
+  }
+
+  .pagination-icon {
+    font-size: 1em;
+  }
+}

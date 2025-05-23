@@ -1,13 +1,37 @@
-body {
+/* frontend/src/index.css */
+
+/* Reset CSS básico para remover margens e paddings padrão do navegador */
+* {
+  box-sizing: border-box; /* Garante que padding e border são incluídos na largura/altura */
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
+/* Estilos básicos para o elemento HTML principal */
+html, body, #root {
+  height: 100%; /* Garante que o body e o root div ocupem 100% da altura */
+  width: 100%;
+}
+
+/* Opcional: Remover estilos de foco padrão para uma aparência mais limpa, se você já tiver ou for adicionar estilos de foco personalizados */
+/*
+*:focus {
+  outline: none;
+}
+*/
+
+/* Você pode manter o estilo para 'code' se quiser, como no Create React App padrão */
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* NENHUMA cor de fundo ou font-family para body deve estar aqui,
+   elas serão definidas no App.css para maior modularidade e temática. */
+body {
+  /* margin: 0; */ /* Já no reset */
+  /* font-family: ...; */ /* Definido no App.css */
+  /* background-color: ...; */ /* Definido no App.css */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }

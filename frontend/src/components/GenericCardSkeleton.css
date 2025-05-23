@@ -1,0 +1,74 @@
+/* Estilos genéricos para o skeleton de card (reúne CPUSkeleton.css e GPUSkeleton.css) */
+
+.generic-skeleton-item {
+    background-color: #45475A; /* Surface1 - Fundo do cartão do esqueleto */
+    border: 1px solid #585B70; /* Surface2 - Borda */
+    border-radius: 12px;
+    padding: 25px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra um pouco mais visível */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    overflow: hidden;
+    position: relative;
+    height: 200px; /* Altura fixa para o esqueleto */
+    animation: pulse 1.5s infinite ease-in-out;
+  }
+  
+  /* Base para as linhas do esqueleto */
+  .skeleton-line {
+    background-color: #6C7086; /* Overlay0 - Cor das linhas do esqueleto (mais escura) */
+    border-radius: 4px;
+    height: 18px;
+    width: 100%;
+  }
+  
+  .skeleton-line-large {
+    height: 28px;
+    width: 80%;
+  }
+  
+  .skeleton-line-medium {
+    height: 22px;
+    width: 60%;
+  }
+  
+  .skeleton-line-small {
+    height: 18px;
+    width: 40%;
+  }
+  
+  /* Animação de brilho para dar a impressão de carregamento */
+  .generic-skeleton-item::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(205, 214, 244, 0.15), transparent); /* Rosewater ou Text com opacidade */
+    transform: translateX(-100%);
+    animation: shine 1.5s infinite forwards;
+  }
+  
+  @keyframes shine {
+    to {
+      transform: translateX(100%);
+    }
+  }
+  
+  /* Animação de pulso para o item inteiro */
+  @keyframes pulse {
+    0% { opacity: 0.6; }
+    50% { opacity: 1; }
+    100% { opacity: 0.6; }
+  }
+  
+  /* Responsividade para o esqueleto */
+  @media (max-width: 480px) {
+    .generic-skeleton-item {
+      padding: 20px;
+      height: 180px;
+    }
+  }

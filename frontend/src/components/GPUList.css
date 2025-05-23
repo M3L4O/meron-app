@@ -1,0 +1,200 @@
+/* Reutilizando e adaptando estilos do CPUList.css para GPU */
+
+.gpu-list-container { /* Renomeado */
+    text-align: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .gpu-list-header { /* Renomeado */
+    background-color: #313244; /* Surface0 */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    color: #CDD6F4; /* Text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .gpu-list-header h1 { /* Renomeado */
+    margin: 0 0 20px 0;
+    font-size: 2.5em;
+    color: #A6E3A1; /* Green - Uma cor de destaque diferente para GPUs */
+  }
+  
+  /* Estilos da Barra de Busca (reutilizado do CPUList.css) */
+  .search-bar {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    max-width: 500px;
+    padding: 12px 20px;
+    border: 1px solid #585B70;
+    background-color: #45475A;
+    color: #CDD6F4;
+    border-radius: 25px;
+    font-size: 1.1em;
+    outline: none;
+    transition: all 0.3s ease;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+  }
+  
+  .search-bar input::placeholder {
+    color: #A6ADC8;
+  }
+  
+  .search-bar input:focus {
+    border-color: #A6E3A1; /* Green - Borda no foco para GPUs */
+    box-shadow: 0 0 8px rgba(166, 227, 161, 0.6);
+  }
+  
+  /* Estilos da Lista de GPUs */
+  .gpu-list { /* Renomeado */
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+  }
+  
+  /* Estilos de Cada Item da GPU (Card) */
+  .gpu-item-link { /* Renomeado */
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .gpu-item { /* Renomeado */
+    background-color: #45475A;
+    border: 1px solid #585B70;
+    border-radius: 12px;
+    padding: 25px;
+    text-align: left;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    color: #CDD6F4;
+  }
+  
+  .gpu-item:hover { /* Renomeado */
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .gpu-item h2 { /* Renomeado */
+    color: #A6E3A1; /* Green - Título do cartão */
+    font-size: 1.6em;
+    margin-top: 0;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #89DCEB; /* Sky - Linha de destaque diferente */
+    padding-bottom: 10px;
+  }
+  
+  .gpu-item p { /* Renomeado */
+    margin: 8px 0;
+    font-size: 0.95em;
+    line-height: 1.4;
+  }
+  
+  .gpu-item p strong { /* Renomeado */
+    color: #BAC2DE;
+  }
+  
+  /* Estilos dos Controles de Paginação (reutilizado do CPUList.css) */
+  .pagination-controls {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .pagination-controls button {
+    background-color: #A6E3A1; /* Green - Fundo do botão */
+    color: #1E1E2E; /* Base - Texto do botão */
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .pagination-controls button:hover:not(:disabled) {
+    background-color: #94E2D5; /* Teal - Hover do botão */
+    transform: translateY(-2px);
+  }
+  
+  .pagination-controls button:disabled {
+    background-color: #585B70;
+    color: #A6ADC8;
+    cursor: not-allowed;
+    opacity: 0.7;
+    box-shadow: none;
+  }
+  
+  /* Mensagem de Erro (reutilizado do CPUList.css) */
+  .error-message {
+    background-color: #EBA0AC;
+    color: #1E1E2E;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .error-message p {
+    margin: 0;
+    font-size: 1.1em;
+    color: #1E1E2E;
+  }
+  
+  /* Melhorias de responsividade (reutilizado do CPUList.css) */
+  @media (max-width: 768px) {
+    .gpu-list-header h1 { /* Renomeado */
+      font-size: 2em;
+    }
+    .search-bar input {
+      width: 90%;
+    }
+    .gpu-list { /* Renomeado */
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+    .gpu-item { /* Renomeado */
+      padding: 20px;
+    }
+    .gpu-item h2 { /* Renomeado */
+      font-size: 1.4em;
+    }
+    .pagination-controls button {
+      padding: 10px 20px;
+      font-size: 1em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .gpu-list-container { /* Renomeado */
+      padding: 15px;
+    }
+    .gpu-list-header h1 { /* Renomeado */
+      font-size: 1.8em;
+    }
+    .gpu-list { /* Renomeado */
+      grid-template-columns: 1fr;
+    }
+    .pagination-controls {
+      flex-direction: column;
+      gap: 10px;
+    }
+    .pagination-controls button {
+      width: 80%;
+      margin: 0 auto;
+    }
+  }

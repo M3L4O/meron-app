@@ -1,12 +1,13 @@
-from django.urls import path, include
+from django.urls import include, path
 from rest_framework.routers import DefaultRouter
+
 from .views import (
     CPUViewSet,
     GPUViewSet,
     MotherboardViewSet,
+    PSUViewSet,
     RAMViewSet,
     StorageViewSet,
-    PSUViewSet,
     VolatileViewSet,
 )
 
@@ -15,9 +16,11 @@ router.register(r"cpus", CPUViewSet)
 router.register(r"gpus", GPUViewSet)
 router.register(r"motherboards", MotherboardViewSet)
 router.register(r"rams", RAMViewSet)
-router.register(r"storages", StorageViewSet)
 router.register(r"psus", PSUViewSet)
-router.register(r"volatiles", VolatileViewSet, basename="volatile")
+router.register(r"storages", StorageViewSet)
+router.register(r"volatile", VolatileViewSet)
+
+
 urlpatterns = [
     path("", include(router.urls)),
 ]

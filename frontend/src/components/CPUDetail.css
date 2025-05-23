@@ -1,0 +1,291 @@
+.detail-page-container { /* Nova classe genérica */
+  text-align: center;
+  padding: 20px;
+  max-width: 900px; /* Ligeiramente mais estreito para detalhes */
+  margin: 0 auto;
+}
+
+.detail-header-section { /* Nova seção de cabeçalho */
+  background-color: #313244; /* Surface0 */
+  padding: 30px 20px;
+  border-radius: 12px;
+  margin-bottom: 40px;
+  color: #CDD6F4;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  display: flex; /* Para alinhar título e resumo */
+  flex-direction: column;
+  align-items: center;
+  gap: 15px; /* Espaço entre título e resumo */
+}
+
+.detail-title-group { /* Grupo de ícone e título */
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centraliza o grupo */
+  margin-bottom: 10px;
+}
+
+.detail-icon { /* Ícone na página de detalhes */
+  font-size: 3.5em; /* Ícone grande */
+  margin-right: 15px;
+  color: #89B4FA; /* Blue - Cor de destaque para o ícone da CPU */
+}
+
+.detail-header-section h1 {
+  margin: 0;
+  font-size: 3em;
+  font-weight: 600;
+  color: #89B4FA; /* Blue */
+  text-align: center;
+}
+
+.detail-summary-info { /* Bloco de preço e disponibilidade */
+  background-color: #45475A; /* Surface1 */
+  border-radius: 8px;
+  padding: 15px 25px;
+  display: flex;
+  flex-wrap: wrap; /* Para wrap em telas pequenas */
+  justify-content: center;
+  gap: 25px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.4);
+  width: 100%;
+  max-width: 400px; /* Largura máxima para o resumo */
+}
+
+.detail-summary-info p {
+  margin: 0;
+  font-size: 1.1em;
+  color: #CDD6F4;
+}
+
+.detail-summary-info p strong {
+  color: #BAC2DE;
+}
+
+.detail-price {
+  color: #A6E3A1; /* Green - Cor para o preço */
+  font-weight: bold;
+}
+
+.detail-availability {
+  color: #FAB387; /* Peach - Cor para a disponibilidade */
+  font-weight: bold;
+}
+
+
+.detail-main-content {
+  background-color: #45475A; /* Surface1 */
+  border: 1px solid #585B70; /* Surface2 */
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  margin-bottom: 40px;
+  color: #CDD6F4;
+  text-align: left; /* Garante que o texto dentro seja alinhado à esquerda */
+}
+
+.detail-specs-section { /* Seções de especificações */
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px dashed #585B70; /* Linha divisória suave */
+}
+
+.detail-specs-section:last-child {
+  border-bottom: none; /* Remove a borda da última seção */
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.detail-specs-section h2 {
+  color: #89B4FA; /* Blue - Títulos das seções de specs */
+  font-size: 2em;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 600;
+  border-bottom: 2px solid #74C7CE; /* Linha de destaque */
+  padding-bottom: 10px;
+  display: inline-block; /* Para a borda sublinhar apenas o texto */
+}
+
+.spec-item { /* Cada item de especificação */
+  display: flex; /* Para alinhar label e valor */
+  justify-content: space-between; /* Espaço entre label e valor */
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(88, 91, 112, 0.2); /* Linha divisória sutil entre itens */
+}
+
+.spec-item:last-child {
+  border-bottom: none;
+}
+
+.spec-label {
+  font-weight: bold;
+  color: #BAC2DE; /* Subtext1 */
+  flex-shrink: 0; /* Impede que a label encolha */
+  padding-right: 15px; /* Espaço entre label e valor */
+}
+
+.spec-value {
+  color: #CDD6F4; /* Text */
+  text-align: right; /* Alinha o valor à direita */
+  flex-grow: 1; /* Faz com que o valor ocupe o espaço restante */
+}
+
+
+.detail-back-button { /* Botão de voltar */
+  display: inline-block;
+  background-color: #89B4FA; /* Blue */
+  color: #1E1E2E; /* Base */
+  padding: 15px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.detail-back-button:hover {
+  background-color: #74C7CE; /* Sapphire */
+  transform: translateY(-3px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Skeleton para a página de detalhes */
+.detail-loading-skeleton {
+  background-color: #45475A;
+  border: 1px solid #585B70;
+  border-radius: 16px;
+  padding: 40px;
+  margin: 0 auto;
+  max-width: 800px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  overflow: hidden; /* Para a animação de brilho */
+}
+
+.skeleton-title-line {
+  height: 3.5em;
+  width: 80%;
+  background-color: #6C7086;
+  border-radius: 8px;
+  margin: 0 auto 20px auto;
+}
+
+.skeleton-price-line {
+  height: 2em;
+  width: 60%;
+  background-color: #6C7086;
+  border-radius: 6px;
+  margin: 0 auto 30px auto;
+}
+
+.skeleton-section-title {
+  height: 2em;
+  width: 50%;
+  background-color: #585B70;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.skeleton-specs-block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.skeleton-spec-line {
+  height: 1.2em;
+  width: 90%;
+  background-color: #6C7086;
+  border-radius: 4px;
+}
+
+.skeleton-back-button {
+  height: 3em;
+  width: 200px;
+  background-color: #89B4FA;
+  border-radius: 30px;
+  margin: 30px auto 0 auto;
+}
+
+/* Adiciona a animação de brilho para o skeleton da página de detalhes */
+.detail-loading-skeleton::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(205, 214, 244, 0.1), transparent);
+  transform: translateX(-100%);
+  animation: shine 1.5s infinite forwards;
+}
+
+@keyframes shine { /* Reutiliza a animação shine */
+  to {
+    transform: translateX(100%);
+  }
+}
+
+/* Responsividade para CPUDetail */
+@media (max-width: 768px) {
+  .detail-header-section h1 {
+    font-size: 2.5em;
+  }
+  .detail-icon {
+    font-size: 3em;
+  }
+  .detail-summary-info {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 15px;
+  }
+  .detail-main-content {
+    padding: 30px;
+  }
+  .detail-specs-section h2 {
+    font-size: 1.8em;
+  }
+  .spec-item {
+    flex-direction: column; /* Em telas pequenas, label e valor em linhas separadas */
+    align-items: flex-start;
+    gap: 5px;
+  }
+  .spec-label {
+    min-width: unset; /* Remove min-width em telas pequenas */
+    padding-right: 0;
+  }
+  .spec-value {
+    text-align: left; /* Alinha o valor à esquerda em telas pequenas */
+  }
+  .detail-back-button {
+    padding: 12px 25px;
+    font-size: 1.1em;
+  }
+}
+
+@media (max-width: 480px) {
+  .detail-page-container {
+    padding: 15px;
+  }
+  .detail-header-section {
+    padding: 20px 15px;
+  }
+  .detail-header-section h1 {
+    font-size: 2em;
+  }
+  .detail-icon {
+    font-size: 2.5em;
+  }
+  .detail-main-content {
+    padding: 20px;
+  }
+  .detail-specs-section h2 {
+    font-size: 1.5em;
+  }
+}

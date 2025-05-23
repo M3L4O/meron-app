@@ -1,0 +1,108 @@
+.home-container {
+    text-align: center;
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .home-header {
+    background-color: #313244; /* Surface0 */
+    color: #CDD6F4; /* Text */
+    padding: 50px 20px;
+    border-radius: 12px;
+    margin-bottom: 50px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Sombra mais escura */
+  }
+  
+  .home-header h1 {
+    font-size: 3.5em;
+    color: #89B4FA; /* Blue - Cor de destaque */
+    margin-bottom: 15px;
+  }
+  
+  .home-header p {
+    font-size: 1.5em;
+    color: #BAC2DE; /* Subtext1 */
+  }
+  
+  .home-main {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .home-section {
+    background-color: #45475A; /* Surface1 - Para os cartões de seção */
+    border: 1px solid #585B70; /* Surface2 - Borda sutil */
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+  }
+  
+  .home-section h2 {
+    color: #CDD6F4; /* Text */
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .home-section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    color: #A6ADC8; /* Subtext0 */
+  }
+  
+  .home-button {
+    display: inline-block;
+    background-color: #89B4FA; /* Blue */
+    color: #1E1E2E; /* Base - Texto do botão */
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .home-button:hover {
+    background-color: #74C7CE; /* Sapphire - Um tom de azul diferente no hover */
+    transform: translateY(-3px);
+    color: #1E1E2E;
+  }
+  
+  /* Responsividade para Home */
+  @media (max-width: 768px) {
+    .home-header h1 {
+      font-size: 2.5em;
+    }
+    .home-header p {
+      font-size: 1.2em;
+    }
+    .home-section h2 {
+      font-size: 1.8em;
+    }
+    .home-button {
+      padding: 12px 25px;
+      font-size: 1.1em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .home-header {
+      padding: 30px 15px;
+    }
+    .home-header h1 {
+      font-size: 2em;
+    }
+    .home-header p {
+      font-size: 1em;
+    }
+    .home-section {
+      padding: 20px;
+    }
+    .home-section h2 {
+      font-size: 1.5em;
+    }
+  }

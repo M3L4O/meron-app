@@ -1,0 +1,8 @@
+/* Estilos para o card de GPU, sobrescrevendo ComponentList.css */
+
+.gpu-card-override h2 {
+    color: #A6E3A1; /* Green - Cor de destaque para títulos de GPU */
+    border-bottom-color: #94E2D5; /* Teal - Linha de destaque para GPUs */
+  }
+  
+  /* Você pode adicionar mais estilos específicos para GPU aqui se necessário */
