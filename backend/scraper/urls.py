@@ -8,7 +8,6 @@ from .views import (
     PSUViewSet,
     RAMViewSet,
     StorageViewSet,
-    VolatileViewSet,
 )
 
 router = DefaultRouter()
@@ -18,8 +17,6 @@ router.register(r"motherboards", MotherboardViewSet)
 router.register(r"rams", RAMViewSet)
 router.register(r"psus", PSUViewSet)
 router.register(r"storages", StorageViewSet)
-router.register(r"volatile", VolatileViewSet)
-
 
 urlpatterns = [
     path("", include(router.urls)),

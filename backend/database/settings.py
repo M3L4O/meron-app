@@ -149,20 +149,12 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 # CORS Headers (para o frontend)
 # Para desenvolvimento, permita todas as origens
 CORS_ALLOW_ALL_ORIGINS = True
-# Para produção, liste as origens permitidas
-# CORS_ALLOWED_ORIGINS = [
-#     "http://localhost:3000",
-#     "http://127.0.0.1:3000",
-#     # Adicione o domínio do seu frontend em produção aqui
-# ]
 
-# Celery Configuration
-# Pega o host e porta do Redis do ambiente (do .env)
 REDIS_HOST = os.environ.get("REDIS_HOST", "localhost")
 REDIS_PORT = os.environ.get("REDIS_PORT", "6379")
 
 
-CELERY_BROKER_URL = f"redis://{REDIS_HOST}:{REDIS_PORT}/0"
+CELERY_BROKER_URL = f"redis://localhost:{REDIS_PORT}/0"
 CELERY_RESULT_BACKEND = "django-db"
 CELERY_ACCEPT_CONTENT = ["json"]
 CELERY_TASK_SERIALIZER = "json"

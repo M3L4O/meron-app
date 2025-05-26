@@ -1,17 +1,14 @@
 from dataclasses import dataclass
 from random import uniform
 from time import sleep
-from uuid import uuid4
 
 from selenium import webdriver
+from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
-from selenium.common.exceptions import TimeoutException
-
-from scraper.models import Volatile
 
 
 @dataclass
@@ -26,6 +23,7 @@ class KabumScraper:
         "psu": "fontes",
     }
     page_size = 100
+    source_name = "Kabum"
 
     def __post_init__(self):
         chrome_options = Options()
@@ -54,25 +52,67 @@ class KabumScraper:
             return 1
 
     def get_page_info(self, kind: str):
-        components = []
+        components_data = []
         products = self.driver.find_elements(By.CSS_SELECTOR, ".productCard")
         for product in products:
             try:
-                model = product.find_element(By.CSS_SELECTOR, ".nameCard").text
+                product_name = product.find_element(By.CSS_SELECTOR, ".nameCard").text
+                try:
+                    url_element = product.find_element(By.CSS_SELECTOR, "a.productLink")
+                except NoSuchElementException:
+                    url_element = product.find_element(By.CSS_SELECTOR, ".nameCard a")
+
+                product_url = url_element.get_attribute("href")
+
+                price_element = product.find_element(By.CSS_SELECTOR, ".priceCard")
                 price_text = (
-                    product.find_element(By.CSS_SELECTOR, ".priceCard")
-                    .text.replace("R$", "")
+                    price_element.text.replace("R$", "")
                     .replace(".", "")
                     .replace(",", ".")
                     .strip()
                 )
                 price = float(price_text)
-                components.append(
-                    {"model": model, "price": price, "kind": kind, "availability": True}
+                availability = True
+
+                components_data.append(
+                    {
+                        "product_name_on_source": product_name,
+                        "price": price,
+                        "availability": availability,
+                        "url": product_url,
+                        "kind": kind,
+                        "source_name": self.source_name,
+                    }
                 )
+            except NoSuchElementException:
+                try:
+                    product_name_on_source = product.find_element(
+                        By.CSS_SELECTOR, ".nameCard"
+                    ).text
+                    product_url = product.find_element(
+                        By.CSS_SELECTOR, ".productCard a"
+                    ).get_attribute("href")
+                    components_data.append(
+                        {
+                            "product_name_on_source": product_name_on_source,
+                            "price": 0.0,
+                            "availability": False,
+                            "url": product_url,
+                            "kind": kind,
+                            "source_name": self.source_name,
+                        }
+                    )
+                    print(
+                        f"Produto '{product_name_on_source}' detectado como indisponível/sem preço na Kabum."
+                    )
+                except Exception as e_inner:
+                    print(
+                        f"Erro ao processar produto (provavelmente indisponível) e capturar nome/URL: {e_inner}"
+                    )
             except Exception as e:
-                print(f"Erro ao processar produto: {e}")
-        return components
+                print(f"Erro inesperado ao processar produto no card: {e}")
+
+        return components_data
 
     def scrape_category(self, category: str, kind: str, retries=3):
         components = []
@@ -82,15 +122,21 @@ class KabumScraper:
         while attempt < retries:
             try:
                 self.driver.get(url)
-                self.wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".productCard")))
+                self.wait.until(
+                    EC.presence_of_element_located((By.CSS_SELECTOR, ".productCard"))
+                )
                 max_page = self.get_pages()
                 break
             except TimeoutException:
                 attempt += 1
-                print(f"Timeout na página inicial {category}, tentativa {attempt}/{retries}")
+                print(
+                    f"Timeout na página inicial {category}, tentativa {attempt}/{retries}"
+                )
                 sleep(uniform(5, 7))
                 if attempt == retries:
-                    print(f"Falha ao carregar categoria {category} após {retries} tentativas. Pulando.")
+                    print(
+                        f"Falha ao carregar categoria {category} após {retries} tentativas. Pulando."
+                    )
                     return []
 
         for page_number in range(1, max_page + 1):
@@ -100,40 +146,38 @@ class KabumScraper:
                 try:
                     print(f"Raspando a Url: {url}")
                     self.driver.get(url)
-                    self.wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".productCard")))
+                    self.wait.until(
+                        EC.presence_of_element_located(
+                            (By.CSS_SELECTOR, ".productCard")
+                        )
+                    )
                     components.extend(self.get_page_info(kind))
                     break
                 except TimeoutException:
                     attempt += 1
-                    print(f"Timeout na página {page_number} da categoria {category}, tentativa {attempt}/{retries}")
+                    print(
+                        f"Timeout na página {page_number} da categoria {category}, tentativa {attempt}/{retries}"
+                    )
                     sleep(uniform(5, 7))
                     if attempt == retries:
-                        print(f"Pulando página {page_number} da categoria {category} após {retries} tentativas.")
+                        print(
+                            f"Pulando página {page_number} da categoria {category} após {retries} tentativas."
+                        )
             sleep(uniform(5, 7))
 
         return components
 
+
     def scraping(self):
-        all_components = []
+        all_scraped_data = []
         for kind, categories in self.path_component.items():
             print(f"Raspando {kind.upper()}............")
             categories = categories if isinstance(categories, list) else [categories]
             for category in categories:
-                all_components.extend(self.scrape_category(category, kind))
+                scraped_category_data = self.scrape_category(category, kind)
+                all_scraped_data.extend(scraped_category_data)
 
             sleep(uniform(10, 30))
 
-        volatile_objects = [
-            Volatile(
-                id=uuid4(),
-                model=comp["model"],
-                price=comp["price"],
-                availability=comp["availability"],
-                kind=comp["kind"],
-            )
-            for comp in all_components
-        ]
-        Volatile.objects.bulk_create(volatile_objects, batch_size=100)
-
         self.driver.quit()
-        return all_components
+        return all_scraped_data

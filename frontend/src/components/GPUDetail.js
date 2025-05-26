@@ -124,19 +124,14 @@ function GPUDetail() {
           <h2>Informações Gerais</h2>
           <div className="spec-item"><span className="spec-label">Fabricante:</span> <span className="spec-value">{gpu.manufacturer}</span></div>
           <div className="spec-item"><span className="spec-label">Modelo:</span> <span className="spec-value">{gpu.model}</span></div>
-          <div className="spec-item"><span className="spec-label">Chipset:</span> <span className="spec-value">{gpu.chipset}</span></div>
           <div className="spec-item"><span className="spec-label">Consumo (TDP):</span> <span className="spec-value">{gpu.consumption} W</span></div>
         </div>
 
         <div className="detail-specs-section">
           <h2>Memória e Clock</h2>
-          <div className="spec-item"><span className="spec-label">VRAM:</span> <span className="spec-value">{gpu.vram}</span></div>
-          <div className="spec-item"><span className="spec-label">Tipo de VRAM:</span> <span className="spec-value">{gpu.vram_type}</span></div>
-          <div className="spec-item"><span className="spec-label">Clock Base:</span> <span className="spec-value">{gpu.base_clock_speed} MHz</span></div>
-          <div className="spec-item"><span className="spec-label">Clock Boost:</span> <span className="spec-value">{gpu.boost_clock_speed} MHz</span></div>
+          <div className="spec-item"><span className="spec-label">VRAM:</span> <span className="spec-value">{gpu.vram} GB</span></div>
+          <div className="spec-item"><span className="spec-label">VRAM speed:</span> <span className="spec-value">{gpu.vram_speed} MHz</span></div>
         </div>
-
-        {/* Adicione mais seções conforme necessário para GPU */}
 
         <button onClick={handleBackButtonClick} className="back-button detail-back-button">Voltar para a lista de GPUs</button>
       </main>
