@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.git
+.gitignore
+.vscode/
+staticfiles/ # Se você não serve estáticos diretamente do Django em produção
+media/       # A menos que precise de media files na imagem
+*.log

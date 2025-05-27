@@ -1,5 +1,7 @@
+from django.contrib.contenttypes.models import ContentType
 from rest_framework import serializers
-from .models import CPU, GPU, Motherboard, RAM, Storage, PSU
+
+from .models import CPU, GPU, PSU, RAM, CurrentVolatileData, Motherboard, Storage
 
 
 def parse_numeric_value(value_str, unit, target_type=float):
@@ -16,9 +18,9 @@ def parse_numeric_value(value_str, unit, target_type=float):
         int/float: O valor numérico convertido, ou 0 se a conversão falhar.
     """
     if isinstance(value_str, (int, float)):
-        return target_type(value_str)  
+        return target_type(value_str)
     if not isinstance(value_str, str):
-        return 0  
+        return 0
 
     clean_value_str = value_str.replace(unit, "").strip()
     try:
@@ -37,6 +39,14 @@ class CPUSerializer(serializers.ModelSerializer):
         model = CPU
         fields = "__all__"
 
+    def get_volatile_data(self, obj):
+        content_type = ContentType.objects.get_for_model(obj)
+        volatile_items = CurrentVolatileData.objects.filter(
+            content_type=content_type, object_id=obj.id
+        )
+        serializer = CurrentVolatileDataSerializer(volatile_items, many=True)
+        return serializer.data
+
 
 class GPUSerializer(serializers.ModelSerializer):
     class Meta:
@@ -44,9 +54,13 @@ class GPUSerializer(serializers.ModelSerializer):
         fields = "__all__"
 
     def to_internal_value(self, data):
-        data["consumption"] = parse_numeric_value(data["consumption"], "W", target_type=int)
+        data["consumption"] = parse_numeric_value(
+            data["consumption"], "W", target_type=int
+        )
         data["vram"] = parse_numeric_value(data["vram"], "GB", target_type=float)
-        data["vram_speed"] = parse_numeric_value(data["vram_speed"], "MHz", target_type=float)
+        data["vram_speed"] = parse_numeric_value(
+            data["vram_speed"], "MHz", target_type=float
+        )
         return super().to_internal_value(data)
 
 
@@ -82,3 +96,16 @@ class PSUSerializer(serializers.ModelSerializer):
         if "rate" not in data or data["rate"] is None:
             data["rate"] = "Não especificado"
         return super().to_internal_value(data)
+
+
+class CurrentVolatileDataSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = CurrentVolatileData
+        fields = [
+            "product_name_on_source",
+            "url",
+            "source",
+            "current_price",
+            "current_availability",
+            "last_checked",
+        ]

@@ -11,7 +11,7 @@ services:
     command: sh -c "./run.sh"
     volumes:
       - ./backend:/app
-      - sqlite_data:/app/
+      - ./backend/db.sqlite3:/app/db.sqlite3
     ports:
       - "8000:8000"
     env_file:
@@ -21,19 +21,11 @@ services:
     working_dir: /app
 
   frontend:
+    # A construção agora usa o Dockerfile que criámos
     build:
       context: ./frontend
       dockerfile: Dockerfile
-    volumes:
-      - ./frontend:/app
-      - /app/node_modules
     ports:
-      - "3000:3000" 
-    env_file:
-      - ./frontend/.env.production
+      - 80:80
     depends_on:
       - backend
-    working_dir: /app
-
-volumes:
-  sqlite_data:
