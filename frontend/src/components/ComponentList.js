@@ -40,7 +40,7 @@ function ComponentList({
   const listContainerRef = useRef(null); // Ref para o container da lista
 
   const ellipsis = '...';
-  const pageSize = 10;
+  const pageSize = 50; 
 
   const buildApiUrl = useCallback((page, term) => {
     const baseUrl = `http://localhost:8000/api/${componentType}/`;

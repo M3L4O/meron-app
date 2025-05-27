@@ -1,152 +1,114 @@
 import React, { useState, useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
-import { RiCpuLine } from 'react-icons/ri'; // Ícone para o título da página de detalhes
-import './CPUDetail.css';
+import { useParams, Link } from 'react-router-dom';
+import { IoIosArrowBack } from 'react-icons/io';
+import ComponentIcon from './ComponentIcon'; // Reutilizamos o nosso componente de ícone
+import './CPUDetail.css'; // Um novo CSS para a página de detalhes
 
-// Função auxiliar para "mocar" (simular) preço e disponibilidade
-// Esta função é idêntica à de CPUList, para manter a consistência
-const mockPriceAndAvailabilityDetail = () => {
-  const availabilityOptions = ['Disponível', 'Indisponível'];
-  return {
-    price: (Math.random() * (4500 - 500) + 500).toFixed(2),
-    availability: availabilityOptions[Math.floor(Math.random() * availabilityOptions.length)]
-  };
+const CPUDetail = () => {
+    // useParams para pegar o 'id' da URL (ex: /cpus/algum-uuid)
+    const { id } = useParams();
+    const [cpu, setCpu] = useState(null);
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null);
+
+    useEffect(() => {
+        const fetchCpuDetails = async () => {
+            setLoading(true);
+            try {
+                // Busca os dados do endpoint específico para esta CPU
+                const response = await fetch(`http://localhost:8000/api/cpus/${id}/`);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const data = await response.json();
+                setCpu(data);
+            } catch (err) {
+                setError(err);
+                console.error("Erro ao buscar detalhes da CPU:", err);
+            } finally {
+                setLoading(false);
+            }
+        };
+
+        fetchCpuDetails();
+    }, [id]); // O useEffect executa sempre que o 'id' na URL mudar
+
+    if (loading) {
+        // Poderíamos criar um "esqueleto" de loading mais elaborado para a página de detalhes
+        return <div className="detail-container loading">A carregar detalhes...</div>;
+    }
+
+    if (error) {
+        return (
+            <div className="detail-container error">
+                <h2>Erro ao Carregar</h2>
+                <p>{error.message}</p>
+                <Link to="/cpus" className="back-button">
+                    <IoIosArrowBack /> Voltar para a lista
+                </Link>
+            </div>
+        );
+    }
+
+    if (!cpu) {
+        return <div>Processador não encontrado.</div>;
+    }
+
+    // Separa os dados voláteis para facilitar o acesso
+    const offers = cpu.volatile_data || [];
+
+    return (
+        <div className="detail-container">
+            <header className="detail-header">
+                <Link to="/cpus" className="back-button">
+                    <IoIosArrowBack /> Voltar para a lista
+                </Link>
+                <h1>{cpu.manufacturer} {cpu.model}</h1>
+            </header>
+
+            <div className="detail-content">
+                {/* Coluna da Esquerda: Especificações Técnicas */}
+                <div className="detail-specs-column">
+                    <div className="detail-icon-wrapper">
+                        <ComponentIcon type="cpus" size={60} />
+                    </div>
+                    <h2>Especificações Técnicas</h2>
+                    <ul className="spec-list">
+                        <li><strong>Fabricante:</strong> {cpu.manufacturer}</li>
+                        <li><strong>Modelo:</strong> {cpu.model}</li>
+                        <li><strong>Soquete:</strong> {cpu.socket}</li>
+                        <li><strong>Núcleos:</strong> {cpu.n_cores}</li>
+                        <li><strong>Clock Base:</strong> {cpu.base_clock_speed} GHz</li>
+                        <li><strong>Clock Boost:</strong> {cpu.boost_clock_speed} GHz</li>
+                        <li><strong>Consumo (TDP):</strong> {cpu.consumption}W</li>
+                        <li><strong>Gráfico Integrado:</strong> {cpu.integrated_gpu || 'Não possui'}</li>
+                    </ul>
+                </div>
+
+                {/* Coluna da Direita: Ofertas de Preço */}
+                <div className="detail-offers-column">
+                    <h2>Ofertas Disponíveis</h2>
+                    <div className="offers-container">
+                        {offers.length > 0 ? (
+                            offers.map(offer => (
+                                <div key={offer.url} className="offer-card">
+                                    <div className="offer-details">
+                                        <span className="offer-source">{offer.source}</span>
+                                        <span className="offer-price">R$ {parseFloat(offer.current_price).toFixed(2)}</span>
+                                    </div>
+                                    <a href={offer.url} target="_blank" rel="noopener noreferrer" className="offer-button">
+                                        Ir para a loja
+                                    </a>
+                                </div>
+                            ))
+                        ) : (
+                            <p>Nenhuma oferta encontrada no momento.</p>
+                        )}
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
 };
-
-function CPUDetail() {
-  const { id } = useParams();
-  const navigate = useNavigate(); // Hook para navegação
-  const [cpu, setCpu] = useState(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-  const [mockedData, setMockedData] = useState({}); // Novo estado para dados mockados
-
-  useEffect(() => {
-    const fetchCpuDetail = async () => {
-      setLoading(true);
-      setError(null);
-      try {
-        const response = await fetch(`http://localhost:8000/api/cpus/${id}/`);
-        if (!response.ok) {
-          if (response.status === 404) {
-            throw new Error('CPU não encontrada.');
-          }
-          throw new Error(`Erro HTTP! Status: ${response.status}`);
-        }
-        const data = await response.json();
-        setCpu(data);
-        setMockedData(mockPriceAndAvailabilityDetail()); // Moca os dados aqui
-      } catch (error) {
-        setError(error);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchCpuDetail();
-  }, [id]);
-
-  // Função para lidar com o botão de voltar
-  const handleBackButtonClick = () => {
-    // navigate(-1) simula o botão "voltar" do navegador
-    // Mas ele não leva o estado. Para levar o estado, precisaríamos
-    // armazená-lo na página de lista antes de navegar para cá.
-    // Como a lista já salva o estado, navegar para trás é o suficiente.
-    navigate(-1); 
-  };
-
-
-  if (loading) {
-    return (
-      <div className="detail-page-container">
-        <div className="detail-loading-skeleton">
-          <div className="skeleton-title-line"></div>
-          <div className="skeleton-price-line"></div>
-          <div className="skeleton-section-title"></div>
-          <div className="skeleton-specs-block">
-            <div className="skeleton-spec-line"></div>
-            <div className="skeleton-spec-line"></div>
-            <div className="skeleton-spec-line"></div>
-          </div>
-          <div className="skeleton-section-title"></div>
-          <div className="skeleton-specs-block">
-            <div className="skeleton-spec-line"></div>
-            <div className="skeleton-spec-line"></div>
-          </div>
-          <div className="skeleton-back-button"></div>
-        </div>
-      </div>
-    );
-  }
-
-  if (error) {
-    return (
-      <div className="detail-page-container">
-        <div className="error-message detail-error-message">
-          <p>Erro: {error.message}</p>
-          {/* Use button onClick para navegar para trás */}
-          <button onClick={handleBackButtonClick} className="back-button">Voltar para a lista de CPUs</button>
-        </div>
-      </div>
-    );
-  }
-
-  if (!cpu) {
-    return (
-      <div className="detail-page-container">
-        <p>Nenhum dado de CPU disponível.</p>
-        <button onClick={handleBackButtonClick} className="back-button">Voltar para a lista de CPUs</button>
-      </div>
-    );
-  }
-
-  // Renderiza os detalhes da CPU
-  return (
-    <div className="detail-page-container"> {/* Container principal da página de detalhes */}
-      <header className="detail-header-section"> {/* Seção de cabeçalho */}
-        <div className="detail-title-group">
-          <RiCpuLine className="detail-icon" /> {/* Ícone maior no título da página */}
-          <h1>{cpu.manufacturer} {cpu.model}</h1>
-        </div>
-        <div className="detail-summary-info"> {/* Resumo de preço e disponibilidade */}
-          {mockedData.price && (
-            <p className="detail-price">
-              <strong>Preço:</strong> R$ {parseFloat(mockedData.price).toFixed(2).replace('.', ',')}
-            </p>
-          )}
-          {mockedData.availability && (
-            <p className="detail-availability">
-              <strong>Disponibilidade:</strong> {mockedData.availability}
-            </p>
-          )}
-        </div>
-      </header>
-
-      <main className="detail-main-content">
-        <div className="detail-specs-section">
-          <h2>Informações Gerais</h2>
-          <div className="spec-item"><span className="spec-label">Fabricante:</span> <span className="spec-value">{cpu.manufacturer}</span></div>
-          <div className="spec-item"><span className="spec-label">Modelo:</span> <span className="spec-value">{cpu.model}</span></div>
-          <div className="spec-item"><span className="spec-label">Soquete:</span> <span className="spec-value">{cpu.socket}</span></div>
-          <div className="spec-item"><span className="spec-label">Consumo (TDP):</span> <span className="spec-value">{cpu.consumption} W</span></div>
-        </div>
-
-        <div className="detail-specs-section">
-          <h2>Performance</h2>
-          <div className="spec-item"><span className="spec-label">Número de Cores:</span> <span className="spec-value">{cpu.n_cores}</span></div>
-          <div className="spec-item"><span className="spec-label">Clock Base:</span> <span className="spec-value">{cpu.base_clock_speed} GHz</span></div>
-          <div className="spec-item"><span className="spec-label">Clock Boost:</span> <span className="spec-value">{cpu.boost_clock_speed} GHz</span></div>
-          {cpu.integrated_gpu && <div className="spec-item"><span className="spec-label">Gráficos Integrados:</span> <span className="spec-value">{cpu.integrated_gpu}</span></div>}
-          {cpu.l3_cache && <div className="spec-item"><span className="spec-label">Cache L3:</span> <span className="spec-value">{cpu.l3_cache}</span></div>}
-          {cpu.process && <div className="spec-item"><span className="spec-label">Processo:</span> <span className="spec-value">{cpu.process}</span></div>}
-        </div>
-
-        {/* Você pode adicionar mais seções conforme necessário */}
-
-        <button onClick={handleBackButtonClick} className="back-button detail-back-button">Voltar para a lista de CPUs</button>
-      </main>
-    </div>
-  );
-}
 
 export default CPUDetail;

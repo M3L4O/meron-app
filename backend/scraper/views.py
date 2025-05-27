@@ -1,6 +1,6 @@
 from rest_framework import viewsets
 from rest_framework import filters
-from .models import CPU, GPU, Motherboard, RAM, PSU, Storage
+from .models import CPU, GPU, Motherboard, RAM, PSU, Storage, CurrentVolatileData
 from .serializers import (
     CPUSerializer,
     GPUSerializer,
@@ -9,17 +9,38 @@ from .serializers import (
     PSUSerializer,
     StorageSerializer,
 )
+from django.db.models import Exists, OuterRef
+from django.contrib.contenttypes.models import ContentType
 
 
 class CPUViewSet(viewsets.ModelViewSet):
     """
-    API endpoint that allows CPUs to be viewed or edited.
+    API endpoint que permite que as CPUs sejam vistas ou editadas.
+    Com busca e ordenação por dados voláteis.
     """
+    queryset = CPU.objects.all()
 
-    queryset = CPU.objects.all().order_by("model")
     serializer_class = CPUSerializer
     filter_backends = [filters.SearchFilter]
     search_fields = ["model", "socket", "integrated_gpu", "manufacturer"]
+
+    def get_queryset(self):
+        """
+        Define o queryset base, já com a anotação e ordenação.
+        O filtro de busca será aplicado sobre este resultado pelo DRF.
+        """
+        cpu_content_type = ContentType.objects.get_for_model(CPU)
+
+        volatile_data_exists = CurrentVolatileData.objects.filter(
+            content_type=cpu_content_type, object_id=OuterRef("pk")
+        )
+
+        # A nossa query base com a anotação e ordenação
+        queryset = CPU.objects.annotate(
+            has_volatile_data=Exists(volatile_data_exists)
+        ).order_by("-has_volatile_data", "manufacturer", "model")
+
+        return queryset
 
 
 class GPUViewSet(viewsets.ModelViewSet):

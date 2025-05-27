@@ -35,12 +35,30 @@ def parse_numeric_value(value_str, unit, target_type=float):
 
 
 class CPUSerializer(serializers.ModelSerializer):
+    # A linha que ativa o método get_volatile_data
+    volatile_data = serializers.SerializerMethodField()
+
     class Meta:
         model = CPU
-        fields = "__all__"
+        # Lista explícita de campos para incluir o nosso campo customizado
+        fields = [
+            "id",
+            "manufacturer",
+            "model",
+            "socket",
+            "n_cores",
+            "base_clock_speed",
+            "boost_clock_speed",
+            "consumption",
+            "integrated_gpu",
+            "volatile_data",  # Adiciona o campo aqui
+        ]
 
     def get_volatile_data(self, obj):
-        content_type = ContentType.objects.get_for_model(obj)
+        """
+        Busca os dados voláteis para uma instância de componente (CPU, neste caso).
+        """
+        content_type = ContentType.objects.get_for_model(obj.__class__)
         volatile_items = CurrentVolatileData.objects.filter(
             content_type=content_type, object_id=obj.id
         )

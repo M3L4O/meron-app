@@ -25,7 +25,7 @@ function GPUDetail() {
       setLoading(true);
       setError(null);
       try {
-        const response = await fetch(`http://localhost:8000/api/gpus/${id}/`);
+        const response = await fetch(`/api/gpus/${id}/`);
         if (!response.ok) {
           if (response.status === 404) {
             throw new Error('GPU não encontrada.');
