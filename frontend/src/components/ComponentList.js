@@ -43,7 +43,7 @@ function ComponentList({
   const pageSize = 50; 
 
   const buildApiUrl = useCallback((page, term) => {
-    const baseUrl = `http://localhost:8000/api/${componentType}/`;
+    const baseUrl = `/api/${componentType}/`;
     const params = [];
 
     if (term) {

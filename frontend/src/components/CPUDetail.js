@@ -16,7 +16,7 @@ const CPUDetail = () => {
             setLoading(true);
             try {
                 // Busca os dados do endpoint específico para esta CPU
-                const response = await fetch(`http://localhost:8000/api/cpus/${id}/`);
+                const response = await fetch(`/api/cpus/${id}/`);
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }

@@ -16,11 +16,11 @@ class KabumScraper:
     url_base = "https://www.kabum.com.br/hardware/{}?page_number={}&page_size={}"
     path_component = {
         "cpu": "processadores",
-        "gpu": "placa-de-video-vga",
-        "motherboard": "placas-mae",
-        "ram": "memoria-ram",
-        "storage": ["disco-rigido-hd", "ssd-2-5"],
-        "psu": "fontes",
+        # "gpu": "placa-de-video-vga",
+        # "motherboard": "placas-mae",
+        # "ram": "memoria-ram",
+        # "storage": ["disco-rigido-hd", "ssd-2-5"],
+        # "psu": "fontes",
     }
     page_size = 100
     source_name = "Kabum"
