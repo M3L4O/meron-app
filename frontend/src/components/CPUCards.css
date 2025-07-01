@@ -1,8 +1,0 @@
-/* Estilos para o card de CPU, sobrescrevendo ComponentList.css */
-
-.cpu-card-override h2 {
-  color: #89B4FA; /* Blue - Cor de destaque para títulos de CPU */
-  border-bottom-color: #74C7CE; /* Sapphire - Linha de destaque para CPUs */
-}
-
-/* Você pode adicionar mais estilos específicos para CPU aqui se necessário */

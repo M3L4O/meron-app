@@ -46,7 +46,7 @@ class Command(BaseCommand):
                     ignorados += 1
                     self.stderr.write(
                         self.style.WARNING(
-                            f"Ignorado: {dado.get('model', 'Sem modelo')} — Erros: {item_serializer.errors}"
+                            f"Ignorado: Erros: {item_serializer.errors}"
                         )
                     )
 

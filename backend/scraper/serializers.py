@@ -4,43 +4,62 @@ from rest_framework import serializers
 from .models import CPU, GPU, PSU, RAM, CurrentVolatileData, Motherboard, Storage
 
 
-def parse_numeric_value(value_str, unit, target_type=float):
-    """
-    Tenta converter uma string que contém um valor numérico e uma unidade
-    para um tipo numérico (int ou float).
-
-    Args:
-        value_str (str): A string original (ex: "100W", "8GB", "1500MHz").
-        unit (str): A unidade a ser removida da string (ex: "W", "GB", "MHz").
-        target_type (type): O tipo numérico desejado (int ou float).
-
-    Returns:
-        int/float: O valor numérico convertido, ou 0 se a conversão falhar.
-    """
-    if isinstance(value_str, (int, float)):
-        return target_type(value_str)
-    if not isinstance(value_str, str):
-        return 0
-
-    clean_value_str = value_str.replace(unit, "").strip()
-    try:
-        if clean_value_str.isdigit() and target_type == int:
-            return int(clean_value_str)
-        else:
-            return target_type(clean_value_str)
-    except ValueError:
-        return 0
-    except AttributeError:
-        return 0
-
-
-class CPUSerializer(serializers.ModelSerializer):
-    # A linha que ativa o método get_volatile_data
-    volatile_data = serializers.SerializerMethodField()
+class CurrentVolatileDataSerializer(serializers.ModelSerializer):
+    last_checked = serializers.DateTimeField(format="%d/%m/%Y %H:%M:%S", read_only=True)
 
     class Meta:
+        model = CurrentVolatileData
+        fields = [
+            "product_name_on_source",
+            "url",
+            "source",
+            "current_price",
+            "current_availability",
+            "last_checked",
+        ]
+
+
+class VolatileDataMixin(serializers.Serializer):
+    volatile_data = serializers.SerializerMethodField()
+    price = serializers.SerializerMethodField()
+    availability = serializers.SerializerMethodField()
+
+    def get_volatile_data(self, obj):
+        if "volatile_list" in self.context:
+            volatile_items = self.context["volatile_list"]
+        else:
+            volatile_map = self.context.get("volatile_map", {})
+            volatile_items = volatile_map.get(obj.id, [])
+        return CurrentVolatileDataSerializer(volatile_items, many=True).data
+
+    def get_price(self, obj):
+        if "volatile_list" in self.context:
+            volatile_items = self.context["volatile_list"]
+        else:
+            volatile_map = self.context.get("volatile_map", {})
+            volatile_items = volatile_map.get(obj.id, [])
+
+        available_offers = [o for o in volatile_items if o.current_availability]
+        if not available_offers:
+            return None
+
+        best_price_offer = min(available_offers, key=lambda o: o.current_price)
+        return best_price_offer.current_price
+
+    def get_availability(self, obj):
+        if "volatile_list" in self.context:
+            volatile_items = self.context["volatile_list"]
+        else:
+            volatile_map = self.context.get("volatile_map", {})
+            volatile_items = volatile_map.get(obj.id, [])
+
+        is_available = any(o.current_availability for o in volatile_items)
+        return "Em estoque" if is_available else "Indisponível"
+
+
+class CPUSerializer(VolatileDataMixin, serializers.ModelSerializer):
+    class Meta:
         model = CPU
-        # Lista explícita de campos para incluir o nosso campo customizado
         fields = [
             "id",
             "manufacturer",
@@ -51,79 +70,99 @@ class CPUSerializer(serializers.ModelSerializer):
             "boost_clock_speed",
             "consumption",
             "integrated_gpu",
-            "volatile_data",  # Adiciona o campo aqui
+            "volatile_data",
+            "price",
+            "availability",
         ]
 
-    def get_volatile_data(self, obj):
-        """
-        Busca os dados voláteis para uma instância de componente (CPU, neste caso).
-        """
-        content_type = ContentType.objects.get_for_model(obj.__class__)
-        volatile_items = CurrentVolatileData.objects.filter(
-            content_type=content_type, object_id=obj.id
-        )
-        serializer = CurrentVolatileDataSerializer(volatile_items, many=True)
-        return serializer.data
 
-
-class GPUSerializer(serializers.ModelSerializer):
+class GPUSerializer(VolatileDataMixin, serializers.ModelSerializer):
     class Meta:
         model = GPU
-        fields = "__all__"
+        fields = [
+            "id",
+            "manufacturer",
+            "model",
+            "chipset",
+            "vram",
+            "base_clock_speed",
+            "boost_clock_speed",
+            "consumption",
+            "volatile_data",
+            "price",
+            "availability",
+        ]
 
-    def to_internal_value(self, data):
-        data["consumption"] = parse_numeric_value(
-            data["consumption"], "W", target_type=int
-        )
-        data["vram"] = parse_numeric_value(data["vram"], "GB", target_type=float)
-        data["vram_speed"] = parse_numeric_value(
-            data["vram_speed"], "MHz", target_type=float
-        )
-        return super().to_internal_value(data)
 
-
-class MotherboardSerializer(serializers.ModelSerializer):
+class MotherboardSerializer(VolatileDataMixin, serializers.ModelSerializer):
     class Meta:
         model = Motherboard
-        fields = "__all__"
+        fields = [
+            "id",
+            "manufacturer",
+            "model",
+            "socket",
+            "board_size",
+            "n_ram_slots",
+            "memory_gen",
+            "memory_max",
+            "memory_speeds",
+            "sata",
+            "m2",
+            "pcie_x1",
+            "pcie_x4",
+            "pcie_x8",
+            "pcie_x16",
+            "usb",
+            "volatile_data",
+            "price",
+            "availability",
+        ]
 
 
-class RAMSerializer(serializers.ModelSerializer):
+class RAMSerializer(VolatileDataMixin, serializers.ModelSerializer):
     class Meta:
         model = RAM
-        fields = "__all__"
+        fields = [
+            "id",
+            "manufacturer",
+            "model",
+            "generation",
+            "size",
+            "speed",
+            "volatile_data",
+            "price",
+            "availability",
+        ]
 
-    def to_internal_value(self, data):
-        if "speed" not in data or data["speed"] is None:
-            data["speed"] = 0.0
-        return super().to_internal_value(data)
 
-
-class StorageSerializer(serializers.ModelSerializer):
+class StorageSerializer(VolatileDataMixin, serializers.ModelSerializer):
     class Meta:
         model = Storage
-        fields = "__all__"
+        fields = [
+            "id",
+            "manufacturer",
+            "model",
+            "capacity",
+            "io",
+            "is_hdd",
+            "rpm",
+            "volatile_data",
+            "price",
+            "availability",
+        ]
 
 
-class PSUSerializer(serializers.ModelSerializer):
+class PSUSerializer(VolatileDataMixin, serializers.ModelSerializer):
     class Meta:
         model = PSU
-        fields = "__all__"
-
-    def to_internal_value(self, data):
-        if "rate" not in data or data["rate"] is None:
-            data["rate"] = "Não especificado"
-        return super().to_internal_value(data)
-
-
-class CurrentVolatileDataSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = CurrentVolatileData
         fields = [
-            "product_name_on_source",
-            "url",
-            "source",
-            "current_price",
-            "current_availability",
-            "last_checked",
+            "id",
+            "manufacturer",
+            "model",
+            "power",
+            "rate",
+            "volatile_data",
+            "price",
+            "availability",
         ]

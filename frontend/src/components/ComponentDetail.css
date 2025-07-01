@@ -1,35 +1,45 @@
-/* Container principal da página de detalhes */
+/* src/components/Detail.css */
+
 .detail-container {
     max-width: 1200px;
     margin: 40px auto;
     padding: 20px;
-    color: #CDD6F4;
+    color: var(--text);
 }
 
-/* Cabeçalho da página */
+.detail-container.loading,
+.detail-container.error {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 80px 20px;
+}
+
+.detail-container.error h2 {
+    color: var(--red);
+}
+
 .detail-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 40px;
     padding-bottom: 20px;
-    border-bottom: 1px solid #45475A; /* Surface1 */
+    border-bottom: 1px solid var(--surface1);
 }
 
 .detail-header h1 {
-    color: #89B4FA; /* Blue */
+    color: var(--blue);
     font-size: 2.2em;
     margin: 0;
     text-align: right;
 }
 
-/* Botão de voltar */
 .back-button {
     display: flex;
     align-items: center;
     gap: 5px;
-    background-color: #45475A; /* Surface1 */
-    color: #CDD6F4; /* Text */
+    background-color: var(--surface1);
+    color: var(--text);
     padding: 10px 15px;
     border-radius: 8px;
     text-decoration: none;
@@ -38,26 +48,24 @@
 }
 
 .back-button:hover {
-    background-color: #585B70; /* Surface2 */
+    background-color: var(--surface2);
 }
 
-/* Conteúdo principal com as duas colunas */
 .detail-content {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Duas colunas de tamanho igual */
+    grid-template-columns: 1fr 1fr;
     gap: 40px;
 }
 
-/* Coluna de especificações (esquerda) */
 .detail-specs-column {
-    background-color: #313244; /* Surface0 */
+    background-color: var(--surface0);
     padding: 30px;
     border-radius: 12px;
 }
 
 .detail-icon-wrapper {
     text-align: center;
-    color: #89B4FA; /* Blue */
+    color: var(--blue);
     margin-bottom: 20px;
 }
 
@@ -66,7 +74,7 @@
     margin-top: 0;
     margin-bottom: 25px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #585B70; /* Surface2 */
+    border-bottom: 1px solid var(--surface2);
 }
 
 .spec-list {
@@ -78,8 +86,7 @@
     display: flex;
     justify-content: space-between;
     padding: 12px 0;
-    font-size: 1em;
-    border-bottom: 1px solid #45475A; /* Surface1 */
+    border-bottom: 1px solid var(--surface1);
 }
 
 .spec-list li:last-child {
@@ -87,11 +94,10 @@
 }
 
 .spec-list li strong {
-    color: #BAC2DE; /* Subtext1 */
+    color: var(--subtext1);
     font-weight: 600;
 }
 
-/* Coluna de ofertas (direita) */
 .detail-offers-column h2 {
     margin-top: 0;
     text-align: center;
@@ -104,37 +110,51 @@
     gap: 15px;
 }
 
-/* Card de cada oferta */
 .offer-card {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #313244; /* Surface0 */
+    background-color: var(--surface0);
     padding: 15px 20px;
     border-radius: 8px;
-    border-left: 5px solid #ABE9B3; /* Destaque verde (Green) */
+    border-left: 5px solid var(--green);
+}
+
+.offer-card.offer-card--kabum {
+    border-left-color: var(--peach);
+}
+
+.offer-card.offer-card--pichau {
+    border-left-color: var(--red);
 }
 
 .offer-details {
     display: flex;
     flex-direction: column;
+    gap: 4px;
 }
 
 .offer-source {
     font-weight: 600;
     font-size: 1.1em;
-    color: #F5C2E7; /* Pink */
+    color: var(--pink);
 }
 
 .offer-price {
     font-size: 1.2em;
     font-weight: 700;
-    color: #ABE9B3; /* Green */
+    color: var(--green);
+}
+
+.offer-unavailable {
+    font-size: 1.1em;
+    font-style: italic;
+    color: #7f849c;
 }
 
 .offer-button {
-    background-color: #89B4FA; /* Blue */
-    color: #1E1E2E; /* Base */
+    background-color: var(--blue);
+    color: var(--base);
     padding: 8px 16px;
     border-radius: 6px;
     text-decoration: none;
@@ -143,22 +163,11 @@
 }
 
 .offer-button:hover {
-    background-color: #74C7CE; /* Sapphire */
+    background-color: var(--sapphire);
 }
 
-/* Responsividade para telas menores */
 @media (max-width: 900px) {
     .detail-content {
-        grid-template-columns: 1fr; /* Uma coluna em telas menores */
-    }
-}
-
-@media (max-width: 600px) {
-    .detail-header {
-        flex-direction: column-reverse;
-        gap: 20px;
-    }
-    .detail-header h1 {
-        text-align: center;
+        grid-template-columns: 1fr;
     }
 }

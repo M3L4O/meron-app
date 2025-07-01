@@ -1,23 +1,12 @@
-from django.urls import include, path
 from rest_framework.routers import DefaultRouter
-
-from .views import (
-    CPUViewSet,
-    GPUViewSet,
-    MotherboardViewSet,
-    PSUViewSet,
-    RAMViewSet,
-    StorageViewSet,
-)
+from . import views
 
 router = DefaultRouter()
-router.register(r"cpus", CPUViewSet)
-router.register(r"gpus", GPUViewSet)
-router.register(r"motherboards", MotherboardViewSet)
-router.register(r"rams", RAMViewSet)
-router.register(r"psus", PSUViewSet)
-router.register(r"storages", StorageViewSet)
+router.register(r"cpus", views.CPUViewSet, basename="cpu")
+router.register(r"gpus", views.GPUViewSet, basename="gpu")
+router.register(r"motherboards", views.MotherboardViewSet, basename="motherboard")
+router.register(r"rams", views.RAMViewSet, basename="ram")
+router.register(r"storages", views.StorageViewSet, basename="storage")
+router.register(r"psus", views.PSUViewSet, basename="psu")
 
-urlpatterns = [
-    path("", include(router.urls)),
-]
+urlpatterns = router.urls

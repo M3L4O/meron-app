@@ -1,11 +1,11 @@
 from uuid import uuid4
-from django.utils import timezone
 
-from django.db import models
 from django.contrib.contenttypes.fields import (
     GenericForeignKey,
 )
 from django.contrib.contenttypes.models import ContentType
+from django.db import models
+from django.utils import timezone
 
 
 class CPU(models.Model):
@@ -13,9 +13,11 @@ class CPU(models.Model):
     manufacturer = models.CharField(max_length=255, blank=True)
     model = models.CharField(unique=True, max_length=255, blank=False, null=False)
     socket = models.CharField(max_length=50, blank=False, null=False)
+
     n_cores = models.IntegerField()
     base_clock_speed = models.FloatField()
     boost_clock_speed = models.FloatField()
+
     consumption = models.IntegerField()
     integrated_gpu = models.CharField(max_length=50, blank=True, null=True)
 
@@ -28,8 +30,10 @@ class GPU(models.Model):
     manufacturer = models.CharField(max_length=255, blank=True)
     model = models.CharField(max_length=255, blank=False, null=False)
     consumption = models.IntegerField()
-    vram = models.FloatField()  # GB
-    vram_speed = models.FloatField()  # MHz
+    chipset = models.CharField(max_length=50, blank=False, null=False, default="N/A")
+    vram = models.FloatField()
+    base_clock_speed = models.FloatField()
+    boost_clock_speed = models.FloatField()
 
     def __str__(self):
         return self.model
@@ -39,14 +43,17 @@ class Motherboard(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid4)
     manufacturer = models.CharField(max_length=255, blank=True)
     model = models.CharField(max_length=255, blank=False, null=False)
+
     socket = models.CharField(max_length=50, blank=False, null=False)
     board_size = models.CharField(max_length=50, blank=False, null=False)
+
     n_ram_slots = models.IntegerField()
     memory_gen = models.CharField(max_length=50, blank=False, null=False)
     memory_max = models.IntegerField()
     memory_speeds = models.CharField(max_length=400, blank=False, null=False)
     sata = models.IntegerField()
     m2 = models.IntegerField()
+
     pcie_x1 = models.IntegerField()
     pcie_x4 = models.IntegerField()
     pcie_x8 = models.IntegerField()

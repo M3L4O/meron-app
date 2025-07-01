@@ -4,7 +4,7 @@ import torch
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
 CONFIDENCE_THRESHOLD = 1.5
-# MODEL_NAME = "cross-encoder/ms-marco-MiniLM-L-12-v2"
+
 MODEL_NAME = "cross-encoder/ms-marco-TinyBERT-L-2-v2"
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -22,21 +22,23 @@ except Exception as e:
 
 COMPONENT_ATTRS = {
     "cpu": [
+        ("manufacturer", "{value}"),
         ("n_cores", "{value} cores"),
-        ("base_clock_speed", "{value}GHz"),
-        ("boost_clock_speed", "{value}GHz turbo"),
+        ("base_clock_speed", "{value}"),
+        ("boost_clock_speed", "{value} turbo"),
         ("socket", "{value}"),
         ("integrated_gpu", "{value}"),
-
     ],
     "gpu": [
-        ("vram", "{value}GB VRAM"),
-        ("vram_speed", "{value}MHz VRAM speed"),
-        ("consumption", "{value}W consumption"),
+        ("manufacturer", "{value}"),
+        ("chipset", "{value}"),
+        ("vram", "{value:.0f}GB"),
+
     ],
     "motherboard": [
+        ("manufacturer", "{value}"),
         ("socket", "socket {value}"),
-        ("board_size", "form_factor {value}"),
+        ("board_size", "{value}"),
         ("memory_gen", "{value}"),
         ("memory_max", "{value}GB max_memory"),
     ],
@@ -46,12 +48,14 @@ COMPONENT_ATTRS = {
         ("speed", "{value}MHz"),
     ],
     "storage": [
+        ("manufacturer", "{value}"),
         ("capacity", "{value}GB"),
         ("io", "{value}"),
         ("is_hdd", lambda c: "HDD" if c.is_hdd else "SSD"),
         ("rpm", "{value} RPM", lambda c: c.is_hdd and c.rpm > 0),
     ],
     "psu": [
+        ("manufacturer", "{value}"),
         ("power", "{value}W"),
         ("rate", "{value}"),
     ],
@@ -81,7 +85,7 @@ def get_component_description(candidate: Any, component_type: str) -> str:
                 else format_str.format(value=value)
             )
 
-    return ", ".join(filter(None, description_parts))
+    return " ".join(filter(None, description_parts))
 
 
 def get_scores_for_all_candidates(

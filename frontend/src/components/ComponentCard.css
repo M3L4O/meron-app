@@ -1,129 +1,137 @@
-/* Estilos para a grelha de cards (container) */
-.card-grid {
-    display: grid;
-    /* Cria colunas responsivas: 1 em telas pequenas, 2 em médias, até 4 em grandes */
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 24px; /* Espaçamento entre os cards */
-    padding: 24px;
-    max-width: 1400px;
-    margin: 0 auto;
+/* Reset definitivo do estilo de link */
+a.component-card-link,
+a.component-card-link:link,
+a.component-card-link:visited,
+a.component-card-link:hover,
+a.component-card-link:active {
+  all: unset;
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
 }
 
-/* Estilos para cada card individual */
-.card {
-    background-color: #ffffff;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-    overflow: hidden; /* Garante que a imagem não saia dos cantos arredondados */
-    display: flex;
-    flex-direction: column;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    text-decoration: none; /* Remove sublinhado do link */
-    color: inherit; /* Herda a cor do texto do pai */
-}
 
-.card:hover {
-    transform: translateY(-5px); /* Efeito de elevação ao passar o mouse */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
-}
-
-.card-link {
-    text-decoration: none;
-    color: inherit;
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1; /* Faz com que o link ocupe todo o espaço disponível */
-}
-
-.card-image-container {
-    width: 100%;
-    padding-top: 75%; /* Proporção 4:3 para a imagem */
-    position: relative;
-    background-color: #f0f2f5;
-}
-
-.card-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: contain; /* Ajusta a imagem sem distorcer, 'cover' também é uma opção */
-    padding: 10px;
-    box-sizing: border-box;
-}
-
-.card-content {
-    padding: 16px;
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1; /* Garante que o conteúdo ocupe o espaço */
-}
-
-.card-title {
-    font-size: 1.1rem;
-    font-weight: 600;
-    margin: 0 0 8px 0;
-    color: #1a202c;
-    min-height: 44px; /* Define uma altura mínima para alinhar títulos de 2 linhas */
-}
-
-.card-spec {
-    font-size: 0.875rem;
-    color: #4a5568;
-    margin: 2px 0;
-}
-
-.price {
-    font-size: 1.2rem;
-    font-weight: 700;
-    color: #2d3748;
-    margin-top: auto; /* Empurra o preço para a parte de baixo do card */
-    padding-top: 12px;
-}
-
-.availability {
-    font-size: 0.8rem;
-    font-weight: 500;
-    margin-top: 4px;
-    padding: 2px 6px;
-    border-radius: 4px;
-    display: inline-block;
-    align-self: flex-start; /* Alinha o item no início do eixo cruzado */
-}
-
-.availability.in-stock {
-    color: #2f855a; /* Verde para 'Em estoque' */
-    background-color: #c6f6d5;
-}
-
-.availability.out-of-stock {
-    color: #9b2c2c; /* Vermelho para 'Fora de estoque' */
-    background-color: #fed7d7;
-}
-
-/* Botão de Compra */
-.buy-button {
-    display: block;
-    padding: 12px 16px;
-    margin: 0 16px 16px 16px; /* Adiciona margem para não ficar colado na borda */
-    background-color: #3182ce;
-    color: white;
-    text-align: center;
+.component-item-card {
+    background-color: var(--surface0);
     border-radius: 8px;
-    text-decoration: none;
+    padding: 20px;
+    list-style-type: none;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: 1px solid var(--surface1);
+    border-left: 5px solid var(--surface2);
+}
+
+.component-item-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.card-title-group {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 15px;
+}
+
+.component-icon {
+    font-size: 28px;
+    flex-shrink: 0;
+}
+
+.card-title-group h2 {
+    margin: 0;
+    font-size: 1.15em;
     font-weight: 600;
-    transition: background-color 0.2s ease;
-    border: none;
-    cursor: pointer;
+    color: var(--text);
+    line-height: 1.3;
+    min-height: 2.6em;
+    display: flex;
+    align-items: center;
 }
 
-.buy-button:hover {
-    background-color: #2b6cb0;
+.card-info-group {
+    margin-top: auto;
+    padding-top: 15px;
+    border-top: 1px solid var(--surface1);
 }
 
-.buy-button.disabled {
-    background-color: #a0aec0; /* Cinza para botão desativado */
-    cursor: not-allowed;
-    pointer-events: none; /* Desativa eventos de clique no CSS */
+.card-price {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: var(--green);
+    margin: 0 0 5px 0;
+}
+
+.card-availability {
+    font-size: 0.85em;
+    font-weight: 600;
+    margin: 8px 0 0 0;
+    padding: 4px 8px;
+    border-radius: 12px;
+    align-self: flex-start;
+    display: inline-block;
+}
+
+.card-availability.in-stock {
+    color: var(--base);
+    background-color: var(--green);
+}
+
+.card-availability.out-of-stock {
+    color: var(--text);
+    background-color: var(--surface1);
+    font-style: italic;
+}
+
+/* Estilização por tipo */
+.cpu-card-override {
+    border-left-color: var(--blue);
+}
+
+.cpu-card-override .component-icon {
+    color: var(--blue);
+}
+
+.gpu-card-override {
+    border-left-color: var(--mauve);
+}
+
+.gpu-card-override .component-icon {
+    color: var(--mauve);
+}
+
+.motherboard-card-override {
+    border-left-color: var(--green);
+}
+
+.motherboard-card-override .component-icon {
+    color: var(--green);
+}
+
+.ram-card-override {
+    border-left-color: var(--yellow);
+}
+
+.ram-card-override .component-icon {
+    color: var(--yellow);
+}
+
+.storage-card-override {
+    border-left-color: var(--teal);
+}
+
+.storage-card-override .component-icon {
+    color: var(--teal);
+}
+
+.psu-card-override {
+    border-left-color: var(--peach);
+}
+
+.psu-card-override .component-icon {
+    color: var(--peach);
 }

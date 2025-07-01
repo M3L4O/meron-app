@@ -29,6 +29,7 @@ djangorestframework==3.16.0
 dotenv==0.9.9
 drf-spectacular==0.28.0
 en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl#sha256=1932429db727d4bff3deed6b34cfc05df17794f4a52eeb26cf8928f7c1a0fb85
+fake-useragent==2.2.0
 filelock==3.18.0
 fsspec==2025.5.1
 h11==0.16.0
@@ -94,6 +95,7 @@ safetensors==0.5.3
 scikit-learn==1.6.1
 scipy==1.15.3
 selenium==4.32.0
+selenium-stealth==1.0.6
 sentence-transformers==4.1.0
 setuptools==80.8.0
 shellingham==1.5.4

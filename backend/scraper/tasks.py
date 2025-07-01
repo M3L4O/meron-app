@@ -1,18 +1,10 @@
 from celery import shared_task
-from django.utils import timezone
 from django.contrib.contenttypes.models import ContentType
-import uuid  # Continua importado caso seja útil para outros contextos ou futuras modificações
+from django.utils import timezone
 
-# Importe a classe KabumScraper do seu arquivo scrapers.py
-from scraper.scrapers import KabumScraper  # AGORA SÓ AQUI!
+from scraper.scrapers import KabumScraper, PichauScraper
 
 from .models import (
-    CPU,
-    GPU,
-    Motherboard,
-    RAM,
-    Storage,
-    PSU,  # Todos os seus modelos de componentes
     CurrentVolatileData,
     VolatileDataHistory,
 )
@@ -27,7 +19,7 @@ def scrape_kabum_task():
     """
     print("Iniciando tarefa de scraping da Kabum...")
     scraper = KabumScraper()
-    all_scraped_data = scraper.scraping()  # KabumScraper agora retorna os dados
+    all_scraped_data = scraper.scraping()
     print(
         f"Scraping da Kabum concluído. Total de {len(all_scraped_data)} itens raspados."
     )
@@ -51,6 +43,55 @@ def scrape_kabum_task():
     print(
         "Todos os itens raspados foram enviados para a fila de processamento volátil."
     )
+
+
+@shared_task
+def scrape_pichau_task():
+    """
+    Tarefa Celery principal para iniciar o processo de raspagem da Pichau.
+    Instancia o PichauScraper, executa seu método scraping() para obter os dados,
+    e então envia cada item raspado para a tarefa de processamento volátil.
+    """
+
+    scraper = None
+    print(f"[{timezone.now()}] Iniciando a tarefa scrape_pichau_task...")
+    try:
+        scraper = PichauScraper()
+        all_scraped_data = scraper.scraping()
+
+        for item_data in all_scraped_data:
+            try:
+                record_and_update_volatile_data.delay(
+                    product_name_on_source=item_data["product_name_on_source"],
+                    price=item_data["price"],
+                    availability=item_data["availability"],
+                    url=item_data["url"],
+                    source_name=item_data["source_name"],
+                    component_type_name=item_data["kind"],
+                    component_uuid=None,
+                )
+            except Exception as e:
+                print(
+                    f"Erro ao enviar tarefa Celery para {item_data.get('product_name_on_source', 'N/A')}: {e}"
+                )
+        print(
+            "Todos os itens raspados foram enviados para a fila de processamento volátil."
+        )
+        print(
+            f"[{timezone.now()}] Tarefa scrape_pichau_task concluída. {len(all_scraped_data)} itens processados."
+        )
+        return f"Sucesso: {len(all_scraped_data)} itens processados."
+
+    except Exception as e:
+        print(f"[{timezone.now()}] ERRO INESPERADO na tarefa scrape_pichau_task: {e}")
+        raise
+
+    finally:
+        if scraper:
+            scraper.cleanup()
+        print(
+            f"[{timezone.now()}] Bloco 'finally' da tarefa executado, limpeza garantida."
+        )
 
 
 @shared_task

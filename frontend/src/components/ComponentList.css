@@ -1,20 +1,15 @@
-/* --- Estilos Gerais do Container da Lista --- */
 .component-list-container {
   padding: 20px;
   max-width: 1400px;
-  /* Um pouco mais largo para acomodar mais cards */
   margin: 40px auto;
 }
 
-/* --- Cabeçalho com Título e Busca --- */
 .component-list-header {
-  background-color: #313244;
-  /* Cor de fundo (Surface0) */
+  background-color: var(--surface0);
   padding: 25px 30px;
   border-radius: 12px;
   margin-bottom: 40px;
-  color: #CDD6F4;
-  /* Cor do texto (Text) */
+  color: var(--text);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
   text-align: center;
 }
@@ -23,11 +18,9 @@
   margin: 0 0 25px 0;
   font-size: 2.2em;
   font-weight: 700;
-  color: #89B4FA;
-  /* Cor do título (Blue) */
+  color: var(--blue);
 }
 
-/* --- Barra de Busca --- */
 .search-bar {
   margin: 0 auto;
   max-width: 600px;
@@ -36,131 +29,47 @@
 .search-bar input {
   width: 100%;
   padding: 14px 22px;
-  border: 1px solid #585B70;
-  background-color: #45475A;
-  color: #CDD6F4;
+  border: 1px solid var(--surface2);
+  background-color: var(--surface1);
+  color: var(--text);
   border-radius: 30px;
   font-size: 1em;
   outline: none;
   transition: all 0.3s ease;
-  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .search-bar input::placeholder {
-  color: #A6ADC8;
-  /* Cor do placeholder (Subtext0) */
+  color: var(--subtext1);
 }
 
 .search-bar input:focus {
-  border-color: #89B4FA;
-  /* Borda ao focar (Blue) */
+  border-color: var(--blue);
   box-shadow: 0 0 10px rgba(137, 180, 250, 0.5);
 }
 
-/* --- Grelha de Cards --- */
 .component-list-grid {
   list-style: none;
   padding: 0;
+  margin: 0;
   display: grid;
-  /* Colunas responsivas */
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 30px;
+  align-items: stretch;
 }
 
-/* --- Link que Envolve o Card --- */
-.component-item-link {
-  text-decoration: none;
-  color: inherit;
-  display: flex;
-  /* Para o link preencher a altura do card */
-}
-
-/* --- Estilos do Card (Usado pelo ComponentCard.js) --- */
-.card {
-  background-color: #45475A;
-  /* Fundo do card (Surface1) */
-  border: 1px solid #585B70;
-  /* Borda (Surface2) */
-  border-radius: 12px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  /* Garante que o card ocupe o espaço do link */
-  color: #CDD6F4;
-  /* Texto geral dentro do card (Text) */
-}
-
-.card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
-}
-
-/* O conteúdo dentro do card (definido em ComponentCard.js) */
-.card .card-icon-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 30px 20px;
-  background-color: #313244;
-  /* Cor de fundo (Surface0) */
-  color: #89B4FA;
-  /* Cor do ícone (Blue) */
-  min-height: 80px;
-  /* Define uma altura para o container do ícone */
-}
-
-
-.card .card-content {
-  padding: 20px;
-  text-align: left;
-}
-
-.card .card-title {
-  color: #89B4FA;
-  /* Título do card (Blue) */
-  font-size: 1.4em;
-  margin-top: 0;
-  margin-bottom: 12px;
-  border-bottom: 1px solid #74C7CE;
-  /* Linha de destaque (Sapphire) */
-  padding-bottom: 10px;
-}
-
-.card .card-spec {
-  margin: 6px 0;
-  font-size: 0.9em;
-  line-height: 1.5;
-}
-
-.card .card-spec strong {
-  /* Adicionado para destacar os rótulos */
-  color: #BAC2DE;
-  /* Nomes dos campos (Subtext1) */
-  font-weight: 600;
-}
-
-.card .price {
-  color: #ABE9B3;
-  /* Verde para o preço (Green) */
-}
-
-/* --- Controles de Paginação --- */
 .pagination-controls {
   margin-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 .pagination-controls button,
 .page-number-button {
-  background-color: #89B4FA;
-  /* Fundo do botão (Blue) */
-  color: #1E1E2E;
-  /* Texto do botão (Base) */
+  background-color: var(--blue);
+  color: var(--base);
   border: none;
   padding: 10px 20px;
   border-radius: 8px;
@@ -168,70 +77,62 @@
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
-  display: flex;
-  align-items: center;
-  gap: 5px;
 }
 
 .pagination-controls button:hover:not(:disabled),
 .page-number-button:hover:not(.active) {
-  background-color: #74C7CE;
-  /* Hover (Sapphire) */
-  transform: translateY(-2px);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background-color: var(--sapphire);
 }
 
 .pagination-controls button:disabled {
-  background-color: #585B70;
-  /* Botão desabilitado (Surface2) */
-  color: #A6ADC8;
-  /* Texto desabilitado (Subtext0) */
+  background-color: var(--surface2);
+  color: var(--subtext1);
   cursor: not-allowed;
 }
 
 .page-number-button.active {
-  background-color: #F5C2E7;
-  /* Cor do botão ativo (Pink) */
-  color: #1E1E2E;
-  font-weight: 700;
-  cursor: default;
+  background-color: var(--pink);
+  color: var(--base);
 }
 
 .pagination-ellipsis {
-  color: #A6ADC8;
-  align-self: flex-end;
+  color: var(--subtext1);
   padding: 0 10px;
 }
 
-/* --- Mensagem de Erro --- */
-.error-message {
-  background-color: #F38BA8;
-  /* Cor de erro (Maroon/Red) */
-  color: #1E1E2E;
-  /* Texto com contraste */
-  padding: 20px;
-  border-radius: 8px;
-  margin: 20px auto;
-  max-width: 700px;
+.current-page {
+  color: var(--text);
+  font-weight: 600;
+  padding: 0 10px;
 }
 
-/* --- Media Queries (Responsividade) --- */
 @media (max-width: 768px) {
-  .component-list-header h1 {
-    font-size: 1.8em;
+  .pagination-controls {
+    gap: 6px;
   }
 
-  .component-list-grid {
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  .pagination-controls button,
+  .page-number-button {
+    padding: 8px 12px;
+    font-size: 0.9em;
+  }
+
+  .pagination-controls .pagination-ellipsis {
+    display: none;
   }
 }
 
 @media (max-width: 480px) {
-  .component-list-container {
-    padding: 10px;
+  .pagination-controls {
+    justify-content: space-between;
   }
 
-  .component-list-grid {
-    grid-template-columns: 1fr;
+  .page-number-button {
+    display: none;
+  }
+
+  .pagination-controls button {
+    flex: 1;
+    padding: 10px;
   }
 }
